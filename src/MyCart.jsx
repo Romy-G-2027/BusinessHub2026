@@ -21,6 +21,9 @@ function MyCart() {
                 <X size={12} />
                 <br/>
                 <button className="makeOrder">Make Order <ShoppingBag size={24}/></button>
+                <span className="ItemsNumber"> Total: 3 items</span>
+                <br/>
+                <span className="TotalOrderCost"> Cost: $534.97 </span>
             </div>
 
         </div> 
