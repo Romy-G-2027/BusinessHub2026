@@ -1,13 +1,16 @@
-import Header from './Header'; 
-import Home from './Home'; 
-import Footer from './Footer';
+import Forgotpassword from  './Forgotpassword'
+import Signin from './Signin'
+import Login from './Login'
+import Home from './Home'
+import "./App.css"
 
 function App() { 
   return ( 
     <> 
-      <Header /> 
       <Home /> 
-      <Footer /> 
+      <Login />
+      <Signin />
+      <Forgotpassword />
     </> 
   ); 
 } 

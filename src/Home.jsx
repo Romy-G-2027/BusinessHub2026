@@ -18,9 +18,9 @@ return(
             <h3>60%</h3>
             <span>Struggling to Find New Customers Small businesses identify finding new customers as a major marketing challenge. Our affordable promotional flyers, social media templates, and marketing bundles help business owners create materials to promote their products and reach potential customers.</span>
             <h3>36%</h3>
-            <span>small and medium-sized businesses surveyed said cost was holding them back from investing in marketing channels in BrightLocal's 2025 SMB Marketing Report. </span>
+            <span>small and medium-sized businesses surveyed said cost was holding them back from investing in marketing channels in BrightLocal's 2025 SMB Marketing Report. </span>
             <h3>70%</h3>
-            <span>A 2025 Fiverr survey of nearly 6,000 small businesses across 25 countries found that 70% spent fewer than five hours per week on marketing. Our ready-to-customize templates and branding kits can help owners create marketing materials more efficiently.</span>
+            <span>A 2025 Fiverr survey of nearly 6,000 small businesses across 25 countries found that 70% spent fewer than five hours per week on marketing. Our ready-to-customize templates and branding kits can help owners create marketing materials more efficiently.</span>
         </div>
 
     </div>
