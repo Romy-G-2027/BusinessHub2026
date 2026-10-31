@@ -4,20 +4,41 @@
     text-align: center;
 }
 
+.Home .hP-introContainer{
+    display: grid;
+    grid-template-columns: repeat(1, lfr);
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
 .Home h1 {
     color: #000000;
     font-size: 42px;
 }
-
+.home  p {
+    box-sizing: border-box;
+}
 .Home button {
+    
+    justify-self: center;
+    align-self: center;
+    max-width: 150px;
+    min-width: 55px;
+    max-height: 100px;
+    min-height: 30px;
+
+    width: 150px !important;
+    height: 45px !important;
+}
+
+.Home h2 {
+    color: black;
+}
+
+button {
     background-color: #DFB361;
     color: rgb(0, 0, 0);
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
-}
-
-
-.Home h2 {
-    color: black
 }
