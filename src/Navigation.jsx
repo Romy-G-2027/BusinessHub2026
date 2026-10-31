@@ -5,7 +5,7 @@ import {ShoppingCart, Bell} from "lucide-react";
 function NavigationBar() {
     return (
         <header className= "Navigation">
-           <img src="public/Images/Logo.png" alt="Logo" /> 
+           <img src="public/Images/Logo.png" alt="Logo" id="Logo"/> 
            <nav>
             <a href="#home">Home</a> 
             <a href="#marketplace">Marketplace</a>

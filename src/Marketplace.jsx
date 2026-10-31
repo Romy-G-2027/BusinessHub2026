@@ -7,7 +7,7 @@ function Marketplace () {
 
         <div className="marketplace" id="marketplace">
 
-            <h2>Marketplace</h2>
+            <h2 id="Marketplace">Marketplace</h2>
             <input type="search" placeholder="Search" />
             <Search size={24} />
             <SlidersHorizontal size={24} />
