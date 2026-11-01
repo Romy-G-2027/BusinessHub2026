@@ -1,17 +1,26 @@
-import NavigationBar from './Navigation';
-import Marketplace from './Marketplace';
-import ServiceNumber1 from './ServiceN1';
-import MyCart from './MyCart';
-import Payment from './Payment';
+
+import Header from './Header';
+import Home from './Home';
+import Footer from './Footer';
+
+
+
 
 function App() {
+  const showAgreement = true;
+
   return (
     <>
-    <NavigationBar />
-    <Marketplace />
-    <ServiceNumber1 />
-    <MyCart />
-    <Payment />
+      {showAgreement ? (
+        <FooterNew/>
+        
+      ) : (
+        <>
+          <Header />
+          <Home />
+          <Footer />
+        </>
+      )}
     </>
   );
 }
