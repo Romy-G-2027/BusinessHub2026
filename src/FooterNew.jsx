@@ -8,7 +8,7 @@ function FooterNew() {
 
 
        <div className="footer-new-logo">
-         <img src="/logo.png" alt="Business Hub Logo" />
+         <img src="public/Images/logo.png" alt="Business Hub Logo" />
        </div>
 
 
