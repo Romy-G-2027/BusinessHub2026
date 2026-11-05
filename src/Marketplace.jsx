@@ -7,10 +7,10 @@ function Marketplace () {
 
         <div className="marketplace" id="marketplace">
 
-            <h2 id="Marketplace">Marketplace</h2>
-            <input type="search" placeholder="Search" />
-            <Search size={24} />
-            <SlidersHorizontal size={24} />
+            <p className="MarketplaceTitle">Marketplace</p>
+            <input type="search" placeholder="Search" className="SearchB"/>
+            <Search size={24} className="Searchicon"/>
+            <SlidersHorizontal size={24} className="Filter"/>
 
             {/*From now down is going to be the service cards */}
 
