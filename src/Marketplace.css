@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+.MarketplaceTitle {
+    font-family: 'Momo Trust Display', sans-serif;
+    font-size: 45px;
+    position:relative;
+    top: 30px;
+    font-weight: 50px;
+    Color: black;
+}
+
+.SearchB {
+    border-radius:55px;
+    border-color: #EED6A5;
+    position:relative;
+    top:50px;
+    width:550px;
+    height:25px;
+    background-color:#EED6A5;
+}
+
+.Searchicon {
+    width: 25px;
+    height: 25px;
+    background-color: #EED6A5;
+    border-radius: 50%;
+    padding: 5px;
+
+    display: flex;
+    position:relative;
+    top: 50px;
+}
+

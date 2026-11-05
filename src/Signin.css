@@ -1,0 +1,16 @@
+.Signin {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #FFFBEB;
+    text-align: center;
+    margin-bottom: 55px ;
+}
+#BHLogo {
+    max-height: 250px;
+    max-width: 250px;
+    height: 150px;
+    width: 150px;
+}
+h2 {
+    color: black  ;
+}
