@@ -5,6 +5,7 @@ import Forgotpassword from './Forgotpassword';
 import Signin from './Signin';
 import Login from './Login';
 import './App.css';
+import InvestmentsSearch from './Investments';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Login />
       <Signin />
       <Forgotpassword />
+      <InvestmentsSearch />
+
     </>
   );
 }
