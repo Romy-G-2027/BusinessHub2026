@@ -6,17 +6,19 @@ function NavigationBar() {
     return (
         <header className= "Navigation">
            <img src="public/Images/Logo.png" alt="Logo" id="Logo"/> 
-           <nav>
-            <a href="#home">Home</a> 
-            <a href="#marketplace">Marketplace</a>
-            <a href="#investments">Investments</a>
-            <a href="#forms">Forms</a>
-            <a href="#contact">Contact Us</a>
+           <nav className="LinksNav">
+            <a href="#home" id="Home">Home</a> 
+            <a href="#Marketplace" className="Marketplace">Marketplace</a>
+            <a href="#investments" className="Investments">Investments</a>
+            <a href="#forms" className="Forms">Forms</a>
+            <a href="#contact" className="ContactUs">Contact Us</a>
            </nav>
-           <ShoppingCart size={24} />
-           <Bell size={24} />
+           <div className="NavR">
+           <a href="#MyCart" className="nI"><ShoppingCart size={24} /> </a>
+           <a href="#Notifications" className="nI"> <Bell size={24} /> </a>
            <button>Sign Up</button>
            <button>Log In</button>
+           </div>
         </header>   
     );
 }
