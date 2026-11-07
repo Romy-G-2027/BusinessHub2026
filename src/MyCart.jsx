@@ -3,7 +3,7 @@ import {X, Package,TvMinimalPlay, PencilRuler, ShoppingBag} from "lucide-react";
 
 function MyCart() {
     return (
-        <div className="myCart">
+        <div id="MyCart">
             <h2 id="cartTitle">My Cart</h2>
             <div className="ItemBox">
                 <Package size={24} />
