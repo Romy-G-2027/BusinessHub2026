@@ -1,78 +1,177 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
+
+
 main{
-   max-width:900px;
-   margin: 0 auto;
-   padding: 40px 24px;
-   font-family: 'Poppins', sans-serif;
-   color: black
+ 
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  background-color: #FFFBEB ;
 }
 
 
 
 
-/* Headings*/
+
+
+
+
 
 
 main h1 {
-   font-size:32px;
-   margin-bottom: 12px;
-   margin-top: 70px;
+  font-size:32px;
+  margin-bottom: 12px;
+  margin-top: 70px;
 }
 
 
-/*Introduction*/
+
+
+
+
+
+
 
 
 main > p {
-   color:black;
-   font-size: 16px;
-   line-height: 1.6;
-   margin-bottom: 30px;
+  color:black;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+ 
 }
+
+
 
 
 /*Rectangle box*/
 
 
+
+
 .agreement_rectangle{
-   max-width:700px;
-   margin: 0 auto;
-   padding: 30px;
-   background: #F3D49A;
-   border: 1px solid #e1e7f0;
-   border-radius: 20px;
+  max-width:700px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #F3D49A;
+  border: 1px solid #e1e7f0;
+  border-radius: 20px;
+
+
 
 
 }
 
 
-/*Each Row*/
+
+
+
+
 .rectangle_item {
-   display: flex;
-   gap: 18px;
-   position: relative;
-   align-items: stretch;
- }
-
-
-
-
-/*Circles with numbers*/
-.rectangle_number{
-   width: 50px;
-   height: 50px;
-   min-width: 50px;
-   border-radius: 50%;
-   background: white;
-   color: black ;
-   display: flex;
-   align-items: center;
-   font-weight: bold;
-   position: relative;
-   z-index: 1;
-   justify-content: center;
+  display: flex;
+  gap: 18px;
+  position: relative;
+  align-items: stretch;
 }
+
+
+
+
+
+
+
+
+
+
+.rectangle_number{
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 50%;
+  background: white;
+  color: black ;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+}
+
+
+
+
+.agreement_confirmation{
+  margin: 50px;
+  justify-content: center;
+ 
+}
+
+
+.agree_label{
+  justify-content: center;
+  display: flex;
+}
+
+
+.checkbox{
+  position: relative;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 2px solid;
+  cursor: pointer;
+  display: flex;
+  border-radius: 50%;
+  border-color: red;
+  display: flex;
+  accent-color: black;
+
+}
+
+
+.checkbox:checked::after{
+
+  font-size: 25px;
+  font-weight: bold;
+
+
+
+
+  border-radius: 20px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ 
+  content: "X";
+
+}
+
+
+
+
+.continue_button{
+  margin: 60px;
+  width: 720px;
+  height: 50px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #BC7C03;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+  color:#BC7C03;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+
 

@@ -6,12 +6,14 @@ import Signin from './Signin';
 import Login from './Login';
 import './App.css';
 import InvestmentsSearch from './Investments';
+import InvestAgreement from './InvestAgreement';
 
 function App() {
   return (
     <>
       <Home />
       <FooterNew />
+      <InvestAgreement/>
       <Login />
       <Signin />
       <Forgotpassword />

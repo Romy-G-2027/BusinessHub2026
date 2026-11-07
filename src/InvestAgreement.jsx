@@ -1,4 +1,4 @@
-
+import './InvestAgreement.css'
 
 function InvestAgreement () {
     return(
@@ -89,7 +89,7 @@ function InvestAgreement () {
  
             <div className="agreement_confirmation">
                 <label className="agree_label">
-                    <input type="checkbox" />
+                    <input type="checkbox" className= "checkbox"/>
                     <span>
                         I have read and agree to Business Hub's
                         investment terms and conditions.
