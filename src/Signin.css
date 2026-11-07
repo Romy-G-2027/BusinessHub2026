@@ -14,3 +14,14 @@
 h2 {
     color: black  ;
 }
+.naming {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#name {
+    padding-left: 300px;
+}
+#lastName {
+    padding-right: 300px;
+}
