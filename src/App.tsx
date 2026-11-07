@@ -1,4 +1,4 @@
-import Header from './Header';
+/*import Header from './Header';      <Header />*/
 import Home from './Home';
 import FooterNew from './FooterNew';
 import Forgotpassword from './Forgotpassword';
@@ -10,7 +10,6 @@ import InvestmentsSearch from './Investments';
 function App() {
   return (
     <>
-      <Header />
       <Home />
       <FooterNew />
       <Login />
