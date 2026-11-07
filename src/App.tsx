@@ -1,23 +1,26 @@
-import Header from './Header';
+import NavigationBar from '././Navigation';
 import Home from './Home';
 import FooterNew from './FooterNew';
 import Forgotpassword from './Forgotpassword';
 import Signin from './Signin';
 import Login from './Login';
 import './App.css';
-import InvestmentsSearch from './Investments';
+import Marketplace from './Marketplace'
+import MyCart from './MyCart'
+import ServiceNumber1 from './ServiceN1'
 
 function App() {
   return (
     <>
-      <Header />
+      <NavigationBar />
       <Home />
       <FooterNew />
       <Login />
       <Signin />
       <Forgotpassword />
-      <InvestmentsSearch />
-
+      <Marketplace />
+      <MyCart />
+      <ServiceNumber1 />
     </>
   );
 }
