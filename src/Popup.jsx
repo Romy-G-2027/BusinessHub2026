@@ -17,14 +17,14 @@ function Popup() {
                     X
                 </button>
 
-                <h2>How It Works</h2>
+                <h3 className= "howit_works">How It Works</h3>
 
                 <div className="popup_steps">
 
                     <div className="popup_step">
                         <div className="popup_number">1</div>
-                        <h3>Ownership Offered</h3>
-                        <p>Submit your information</p>
+                        <h2>Submit your information</h2>
+                        
                         <p>
                             Fill out the form with your company
                             details and investment opportunity.
@@ -33,8 +33,8 @@ function Popup() {
 
                     <div className="popup_step">
                         <div className="popup_number">2</div>
-                        <h3>Use of Funds</h3>
-                        <p>Our Team Reviews</p>
+                        <h2> Our Team Reviews</h2>
+                       
                         <p>
                             We check your information for
                             alignment with our platform standards.
@@ -43,12 +43,11 @@ function Popup() {
 
                     <div className="popup_step">
                         <div className="popup_number">3</div>
-                        <h3>Go Live on Our Website</h3>
+                        <h2>Go Live on Our Website</h2>
                         <p>
                             In approximately 1–2 business days
                             your company will be reviewed.
-                        </p>
-                        <p>
+                        
                             If accepted, your company will be
                             featured on our platform and visible
                             to verified investors and partners.
