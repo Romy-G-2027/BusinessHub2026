@@ -1,4 +1,5 @@
-import './InvestAgreement.css'
+import './InvestAgreement.css';
+import { SendHorizontal } from "lucide-react";
 
 function InvestAgreement () {
     return(
@@ -98,7 +99,8 @@ function InvestAgreement () {
  
  
                 <button className="continue_button">
-                    Agree &amp; Continue
+                    Agree &amp; Continue <SendHorizontal size={24} />
+
  
  
                 </button>

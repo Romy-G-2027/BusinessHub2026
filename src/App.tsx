@@ -7,6 +7,7 @@ import Login from './Login';
 import './App.css';
 import InvestmentsSearch from './Investments';
 import InvestAgreement from './InvestAgreement';
+import Popup from './Popup';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Signin />
       <Forgotpassword />
       <InvestmentsSearch />
+      <Popup/>
 
     </>
   );
