@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 .popup_container{
-    background-color: white ;
+    background-color: black;
     font-family:'Poppins', sans-serif ;
     color: black;
     position: relative;
@@ -14,7 +14,9 @@
 
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
-
+.popup_number{
+    color:aqua
+}
 .popup_close{
     position: absolute;
     top: 10px;
