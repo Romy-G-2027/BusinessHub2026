@@ -5,23 +5,55 @@
     text-align: center;
     margin-bottom: 55px ;
 }
+
 #BHLogo {
     max-height: 250px;
     max-width: 250px;
     height: 150px;
     width: 150px;
-}
+ 
+    margin-top: 50px;
+    
+ }
+
+
 h2 {
     color: black  ;
 }
+
 .naming {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.Signin .naming .inputBox{
+    width: 200px;
+}
 
 #name {
-    padding-left: 300px;
+    padding-right: 0px;
+
 }
 #lastName {
-    padding-right: 300px;
+    padding-right: 0px;
+}
+
+.rigthcolumn {
+    margin-right: 300px;
+}
+.Signin .inputBox {
+    border: none;
+    border-radius: 13PX;
+    background-color: rgb(223 179 97 / 50%);
+    margin-bottom: 15px;
+ 
+    width: 350px;
+    height: 25px;
+ }
+
+.Signin button {
+    margin-top: 15px ;
+}
+.Signin .googleButton {
+    background-color: #FFFBEB;
+    border: 2px solid black;
 }

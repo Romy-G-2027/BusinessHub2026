@@ -1,13 +1,54 @@
 .Login {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
     background-color: #FFFBEB;
     text-align: center;
-}
-#BHLogo {
+    margin-top: 55-x;
+    margin-bottom: 55px;
+ }
+ 
+ #BHLogo {
     max-height: 250px;
     max-width: 250px;
     height: 150px;
     width: 150px;
-}
-h2 {
+ 
+    margin-top: 50px;
+    margin-right: 200px;
+ }
+ h2 {
     color: black  ;
-}
+ }
+ 
+ 
+ .rigthColumn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+ }
+ .Login .inputBox {
+    border: none;
+    border-radius: 13PX;
+    background-color: rgb(223 179 97 / 50%);
+    margin-bottom: 15px;
+ 
+    width: 350px;
+    height: 25px;
+ }
+ 
+ 
+ .Login button {
+    margin-bottom: 15px;
+ }
+ 
+ 
+ .Login .googleButton {
+    background-color: #FFFBEB;
+    border: 2px solid black;
+ }
+ 
+ a {
+    color: #BC7C03;
+ }
+ 

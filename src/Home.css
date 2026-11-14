@@ -1,52 +1,108 @@
+/*global*/
+
+
 .Home {
     background-color: #FFFBEB;
     min-height: 100vh;
     text-align: center;
-}
-
-button {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-bottom: 55px;
+ }
+ button {
     background-color: #DFB361;
     color: rgb(0, 0, 0);
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
-}
-
-.Home h1 {
+    cursor: pointer;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ /*hero*/
+ .Home .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+ }
+ .Home .hP-introContainer{
+    display: grid;
+    grid-template-columns: repeat(1, lfr);
+    gap: 15px;
+    margin-bottom: 50px;
+    margin-top: 49px;
+    margin-left: 13px;
+ }
+ 
+ 
+ .Home h1 {
     color: #000000;
     font-size: 42px;
-}
-
-.Home h2 {
-    color: black;
-}
-.Home  p {
+ }
+ .home  p {
     box-sizing: border-box;
-}
-.Home button {
-    
+ }
+ .Home button {
+   
     justify-self: center;
     align-self: center;
     max-width: 150px;
     min-width: 55px;
     max-height: 100px;
     min-height: 30px;
-
+ 
+ 
     width: 150px !important;
     height: 45px !important;
-}
-
-.Home .hP-introContainer{
+ }
+ 
+ 
+ .Home h2 {
+    color: black;
+ }
+ 
+ 
+ .Home .golden-street {
+    width: 343px;
+    height: 341px;
+    margin-top: 32px;
+ }
+ 
+ 
+ /*About*/
+ .Home .aboutInformation {
     display: grid;
-    grid-template-columns: 3fr 3fr;
-    gap: 15px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.goldenStreets {
-    width: 340px;
-    height: 340px;
-    
-}
-
-
+    grid-template-columns: 2fr 2fr;
+    gap: 2rem;
+    font-size: 13px;
+   
+ }
+ 
+ 
+ .Home .aboutInformation .cityView {
+    width: 341px;
+    height: 441px;
+ }
+ 
+ 
+ .Home .aboutInformation .percentagesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 10px;
+    font-size: 10px;
+    line-height: 13px;
+    border-radius: 0px;
+    background-color:#F2E0BE;
+    span {
+        font-size: 7px;
+    }
+ 
+ 
+ }
+ 
+ 
+ 
