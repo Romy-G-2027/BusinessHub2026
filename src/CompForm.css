@@ -1,0 +1,117 @@
+.textBox {
+   background-color: #F1DAAC;
+   border: 1px solid whitesmoke;
+   padding: 8px;
+}
+
+.textBox :focus{
+    box-shadow: none;
+    outline: none;
+}
+.company-page h1{
+    font-weight:bold;
+}
+
+
+
+.company-subtitle{
+    padding-bottom:20px;
+}
+
+.submit-application{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    line-height: 1;
+
+    margin: 60px;
+    width: 900px;
+    height: 62px;
+
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #BC7C03;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.9px;
+    color: #BC7C03;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submit-application span {
+    display: inline-block;
+    line-height: 1;
+}
+
+.submit-application svg {
+    width: 26px;
+    height: 26px;
+    display: block;
+    flex-shrink: 0;
+}
+
+
+
+.form-group label{
+    text-align: left;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.fomr-group label,
+ .form-group small{
+    display: block;
+    text-align: left;
+}
+
+
+.form-group small{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/*.form-row {
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    width:100%;
+    grid-template-columns: 1fr, 1fr;
+    align-items: flex-start;
+    padding-bottom: 26px;
+}
+*/
+
+
+.form-row{
+    display:grid;
+    flex-direction: column;
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left:150px;
+    margin-right: 150px;
+    width: 100%;
+    min-width: 0;
+}
+
+.textBox{
+    width:100%;
+    box-sizing: border-box;
+    margin-bottom:5px;
+    
+
+}
+
+.form-row .form-group{
+    flex: 1;
+    min-width:0;
+    display: flex;
+    flex-direction:column;
+}

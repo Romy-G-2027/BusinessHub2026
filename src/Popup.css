@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 .popup_container{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     font-family:'Poppins', sans-serif ;
     color: black;
     position: relative;
@@ -15,7 +15,7 @@
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 .popup_number{
-    color:aqua
+    color:black;
 }
 .popup_close{
     position: absolute;
@@ -31,7 +31,7 @@
 }
 
 .popup_step p {
-
+    margin:3px;
     margin-bottom: 10px;
     font-size: 16px;
     
@@ -42,8 +42,9 @@
     margin-bottom: 10px;
 }
 
-.howit_works{
-    font-size: 27px;
+.howit_works {
+    font-size: 29px;
+    margin-bottom: 30px
 }
 
 .popup_number {
@@ -58,7 +59,7 @@
     align-items: center;
 
     margin: 0 auto 15px;
-
+    font-weight: bold;
    
 }
 

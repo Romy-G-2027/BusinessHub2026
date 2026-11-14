@@ -48,9 +48,6 @@ function Popup() {
                             In approximately 1–2 business days
                             your company will be reviewed.
                         
-                            If accepted, your company will be
-                            featured on our platform and visible
-                            to verified investors and partners.
                         </p>
                     </div>
 
