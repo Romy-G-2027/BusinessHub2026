@@ -1,0 +1,86 @@
+.tinyMarketplace {
+    color:black;
+    font-weight:bold;
+    font-size:large;
+}
+
+.ST{
+    font-weight:bolder;
+    font-size:40px;
+}
+
+#itemGolden {
+    color: #A87109;
+}
+
+.ServiceImage {
+    width:800px;
+    height:480px;
+    position:relative;
+    top:25px;
+    right:85px;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
+    border-radius: 10px;
+}
+
+.ServiceName{
+    color:black;
+    font-size:45px;;
+    font-weight:bold;
+    position: relative;
+    top:50px;
+    right:200px;
+}
+
+#GI {
+    color:#A87109;
+}
+
+.time {
+    color:#BC7C03;
+    width:35px;
+    height:35px;
+    position:relative;
+    top:62px;
+    right:230px;
+}
+
+.weeks {
+    color:#A87109;
+    font-weight:700;
+    font-size:x-large;
+    position:relative;
+    top:53px;
+    right:220px;
+}
+
+.PriceN{
+    color:#A87109;
+    font-size:40px;
+    font-weight:bold;
+    position:relative;
+    top:90px;
+    left:725px;
+}
+
+.rates {
+    color:#A87109;
+    position:relative;
+    left:182px;
+}
+
+/*
+<div className="Services">
+            <p className="tinyMarketplace">Marketplace</p>
+             <h2 className="ST">The <span id="itemGolden">Golden</span> Package</h2> 
+            <span className="PriceN">$499.99</span>
+            <img src="public/Images/Service1.png" alt="TheGoldenPackage" />
+            <p className="ServiceName">The <span id="GI">Golden</span> Package</p>
+            <Clock size={24} />
+            <span>3 Weeks - 5 Weeks</span>
+            <span className="rates"><span className="stars2">★★★★★ </span><span className="NumberOfRates2">(45)</span></span>
+            <p id="MostOrdered2">Most Ordered</p>
+            <Crown size={24} />
+*/

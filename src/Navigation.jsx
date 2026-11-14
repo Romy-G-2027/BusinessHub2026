@@ -5,8 +5,22 @@ import {ShoppingCart, Bell} from "lucide-react";
 function NavigationBar() {
     return (
         <header className= "Navigation">
-           <img src="public/Images/Logo.png" alt="Logo" id="Logo"/> 
-           <nav className="LinksNav">
+        <img src="public/Images/Logo.png" alt="Logo" id="Logo"/> 
+        <nav className="navbar">
+            <Link to="/">Home</Link>
+            <Link to="/Marketplace">Marketplace</Link>
+            <Link to="/Investments">Investments</Link>
+            <Link to="/Forms">Forms</Link>
+            <Link to="/Contact Us">Contact Us</Link>
+        </nav>
+        </header>   
+    );
+}
+
+export default NavigationBar 
+
+
+/*<nav className="LinksNav">
             <a href="#home" id="Home">Home</a> 
             <a href="#Marketplace" className="Marketplace">Marketplace</a>
             <a href="#investments" className="Investments">Investments</a>
@@ -17,10 +31,4 @@ function NavigationBar() {
            <a href="#MyCart" className="nI"><ShoppingCart size={24} /> </a>
            <a href="#Notifications" className="nI"> <Bell size={24} /> </a>
            <button>Sign Up</button>
-           <button>Log In</button>
-           </div>
-        </header>   
-    );
-}
-
-export default NavigationBar 
+           <button>Log In</button>*/

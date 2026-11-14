@@ -6,11 +6,12 @@ function ServiceNumber1() {
     return (
         <div className="Services">
             <p className="tinyMarketplace">Marketplace</p>
-            <h2>The <span id="itemGolden">Golden</span> Package</h2> 
+            <h2 className="ST">The <span id="itemGolden">Golden</span> Package</h2> 
             <span className="PriceN">$499.99</span>
-            <img src="public/Images/Service1.png" alt="TheGoldenPackage" />
-            <Clock size={24} />
-            <span>3 Weeks - 5 Weeks</span>
+            <img src="public/Images/Service1.png" alt="TheGoldenPackage" className="ServiceImage" />
+            <p className="ServiceName">The <span id="GI">Golden</span> Package</p>
+            <Clock className="time" size={24} />
+            <span className="weeks">3 Weeks - 5 Weeks</span>
             <span className="rates"><span className="stars2">★★★★★ </span><span className="NumberOfRates2">(45)</span></span>
             <p id="MostOrdered2">Most Ordered</p>
             <Crown size={24} />
