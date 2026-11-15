@@ -8,6 +8,7 @@ import './App.css';
 import InvestmentsSearch from './Investments';
 import InvestAgreement from './InvestAgreement';
 import Popup from './Popup';
+import CompForm from './CompForm';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Forgotpassword />
       <InvestmentsSearch />
       <Popup/>
+      <CompForm/>
 
     </>
   );
