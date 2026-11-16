@@ -5,9 +5,17 @@ import Forgotpassword from './Forgotpassword';
 import Signin from './Signin';
 import Login from './Login';
 import './App.css';
-import Marketplace from './Marketplace'
-import MyCart from './MyCart'
-import ServiceNumber1 from './ServiceN1'
+import Marketplace from './Marketplace';
+import MyCart from './MyCart';
+import ServiceNumber1 from './ServiceN1';
+import ServiceNumber2 from './ServiceN2';
+import ServiceNumber3 from './ServiceN3';
+import ServiceNumber4 from './ServiceN4';
+import ServiceNumber5 from './ServiceN5';
+import ServiceNumber6 from './ServiceN6';
+import ServiceNumber7 from './ServiceN7';
+import ServiceNumber8 from './ServiceN8';
+import ServiceNumber9 from './ServiceN9';
 
 function App() {
   return (
@@ -21,6 +29,14 @@ function App() {
       <Marketplace />
       <MyCart />
       <ServiceNumber1 />
+      <ServiceNumber2 />
+      <ServiceNumber3 />
+      <ServiceNumber4 />
+      <ServiceNumber5 />
+      <ServiceNumber6 />
+      <ServiceNumber7 />
+      <ServiceNumber8 />
+      <ServiceNumber9 />
     </>
   );
 }

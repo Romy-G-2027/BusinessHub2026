@@ -38,7 +38,7 @@
     font-weight:600;
     position: relative;
     top:50px;
-    right:200px;
+    right:175px;
     font-family:'Poppins';
 }
 
@@ -53,7 +53,7 @@
     height:35px;
     position:relative;
     top:62px;
-    right:230px;
+    right:220px;
 }
 
 .weeks {
@@ -62,7 +62,7 @@
     font-size:x-large;
     position:relative;
     top:53px;
-    right:220px;
+    right:210px;
     font-family:'Inclusive Sans';
 }
 
@@ -72,13 +72,13 @@
     font-weight:bold;
     position:relative;
     top:90px;
-    left:725px;
+    left:720px;
 }
 
 .rates {
     color:#A87109;
     position:relative;
-    left:215px;
+    left:202px;
     top:45px;
     font-family:'Inclusive Sans';
 }
@@ -91,7 +91,7 @@
     border-radius: 50px;
     font-weight: 450;
     position:relative;
-    left:135px;
+    left:155px;
     line-height:20px;
     top:60px;
     font-size: small;
@@ -101,8 +101,8 @@
 #crown {
     color:#A87109;
     position:relative;
-    top:37px;
-    right:225px;
+    top:33px;
+    right:190px;
     width:18px;
 }
 
@@ -198,8 +198,8 @@
     width:220px;
     height:500px;
     display:inline-block;
-    left:120px;
-    margin-right:100px;
+    left:140px;
+    margin-right:110px;
 }
 
 .SmallBlackSquare {
@@ -261,14 +261,14 @@
     height:60px;
     position: absolute;
     top:330px;
-    right:270px;
+    right:280px;
 }
 
 .FeedbackWriter {
     color:black; 
     font-weight: 650;
     position:absolute;
-    right:60px;
+    right:70px;
     top:338px;
     font-family: "Inclusive Sans";
     font-size: 20px;
@@ -280,7 +280,7 @@
     color:#BC7C03; 
     font-weight: 650;
     position:absolute;
-    right:185px;
+    right:195px;
     top:360px;
     font-family: "Inclusive Sans";
     font-size: 18px;
@@ -292,9 +292,11 @@
     border-style: solid;
     border-width:1.5px;
     border-radius: 50px;
-    width:700px;
+    width:650px;
     height:50px;
     position:relative;
+    left:10px;
+    bottom:70px;
 }
 
 .typeF::placeholder {
@@ -307,7 +309,7 @@
     font-size:x-large;
     position:relative;
     right:130px;
-    top:4px;
+    bottom:66px;
 }
 
 .send {
@@ -316,7 +318,7 @@
     right:30px;
     width:25px;
     height:25px;
-    top:20px;
+    bottom:50px;
     right:80px;
     background-color: white;
     border-radius: 100%;
@@ -326,9 +328,3 @@
     border-width:1.5px;
     border-radius: 50px;
 }
-
-/*
-            <input type="search" placeholder="| GIVE FEEDBACK HERE" className="typeF"/>
-            <span id="urate">☆☆☆☆☆</span>
-            <SendHorizontal className="send"size={24} />
-*/
