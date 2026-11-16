@@ -13,11 +13,11 @@ function ServiceNumber1() {
             <Clock className="time" size={24} />
             <span className="weeks">3 Weeks - 5 Weeks</span>
             <span className="rates"><span className="stars2">★★★★★ </span><span className="NumberOfRates2">(45)</span></span>
-            <p id="MostOrdered2">Most Ordered</p>
-            <Crown size={24} />
+            <p className="Tag">Most Ordered</p>
+            <Crown id="crown" size={24} />
 
             {/*<div>*/}
-            <button /*onClick={() => setShowBox (!showBox)}*/>Add To Cart</button>
+            <button className="addToCart" /*onClick={() => setShowBox (!showBox)}*/>Add To Cart</button>
            {/* { showBox && (
                 <div className="AddToCart">
                     <h2>Hello</h2>
@@ -27,28 +27,26 @@ function ServiceNumber1() {
            )} */}
         {/*</div>*/}
 
-            <hr/> {/* Line */}
+            <hr className="Divider"/> {/* Line */}
 
             <h2 className="Description">Description</h2>
-            <Check size={24} />
-            <span id="DescriptionT">Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
-            <br /> {/* Break/Enter/Seperates it from the next bullet*/}
-            <Check size={24} />
-            <span id="DescriptionT">Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
-            <br /> {/* Break/Enter/Seperates it from the next bullet*/}
-            <Check size={24} />
-            <span id="DescriptionT">Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
-            <br /> {/* Break/Enter/Seperates it from the next bullet*/}
-            <Check size={24} />
-            <span id="DescriptionT">Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+            <Check className="check"size={24} />
+            <p className="Descriptioni">Custom Logo Design: A professionally crafted logo 
+            tailored to your business identity, incorporating carefully selected typography, colors, and visual elements to create a 
+            distinctive and memorable brand.</p>
+            <Check className="check" size={24} />
+            <p className="Descriptioni">Business Card Design: A polished business card featuring your company name, logo, contact
+             information, and brand styling in a clean layout suitable for professional networking.</p>
+            <Check className="check" size={24} />
+            <p className="Descriptioni">Two Social Media Posts: Two custom-designed promotional graphics that reflect your 
+            brand identity and are formatted to showcase your services, announcements, or business offerings online.</p>
+            <Check className="check" size={24} />
+            <p className="Descriptioni">Complete Visual Branding: A coordinated design style that brings your logo, business 
+            card, and social media graphics together through consistent colors, typography, and visual elements.</p>
 
-            <hr/> {/* Line */}
+            <hr className="Divider"/> {/* Line */}
 
-            <ShieldAlert size={24} />
+            <ShieldAlert className="alert" size={24} />
             <span className="Notice">Important Notice</span>
             <p className="NoticeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -57,53 +55,56 @@ function ServiceNumber1() {
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <hr /> {/* Line */}
+            <hr className="Divider" /> {/* Line */}
+            <p className="Description">Feedback</p>
 
-            <div className="Feedback">
-                
-                <div className="SmallBlackSquare"/>
-                <div className="SmallWhiteSquare"/>
-                <p className="quotationMarksP1">"</p>
-                <snap className="feedbackText">Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit, sed do eiusmod tempor incididunt ut</snap>
-                <p className="quotationMarksP2">"</p>
-                <img src="public/Images/Feedback1.jpg" alt="LilyDominguez" width="200" height="200" />
-                <p className="FeedbackWriter">Lily Dominguez</p>
-                <p className="FeedbackStars">★★★★★</p>
+            <div className="allfeedback">
+                <div className="Feedback">
+                    
+                    <div className="SmallBlackSquare"/>
+                    <div className="SmallWhiteSquare"/>
+                    <p className="quotationMarksP1">"</p>
+                    <p className="feedbackText">The complete package gave my business
+                    a polished and consistent identity, and every design felt carefully tailored to my brand.</p>
+                    <p className="quotationMarksP2">"</p>
+                    <img src="public/Images/Feedback1.jpg" alt="LilyDominguez" width="200" height="200" className="avatar"/>
+                    <p className="FeedbackWriter">Lily Dominguez</p>
+                    <p className="FeedbackStars">★★★★★</p>
 
+                </div>
+
+                <div className="Feedback">
+                    
+                    <div className="SmallBlackSquare"/>
+                    <div className="SmallWhiteSquare"/>
+                    <p className="quotationMarksP1">"</p>
+                    <p className="feedbackText">I received a cohesive collection 
+                    of designs that made my business look more professional across both print and social media.</p>
+                    <p className="quotationMarksP2">"</p>
+                    <img src="public/Images/Feedback2.jpg" alt="MohammedKhalid" width="200" height="200" className="avatar"/>
+                    <p className="FeedbackWriter">Mohammed Khalid</p>
+                    <p className="FeedbackStars">★★★★★</p>
+
+                </div>
+
+                <div className="Feedback">
+                    
+                    <div className="SmallBlackSquare"/>
+                    <div className="SmallWhiteSquare"/>
+                    <p className="quotationMarksP1">"</p>
+                    <p className="feedbackText">The attention to
+                    detail across every deliverable was impressive, and the final designs worked beautifully together.</p>
+                    <p className="quotationMarksP2">"</p>
+                    <img src="public/Images/Feedback3.jpg" alt="Luna Sanchaz" width="200" height="200" className="avatar"/>
+                    <p className="FeedbackWriter">Luna Sanchaz</p>
+                    <p className="FeedbackStars">★★★★★</p>
+                    
+                </div>
             </div>
 
-            <div className="Feedback">
-                
-                <div className="SmallBlackSquare"/>
-                <div className="SmallWhiteSquare"/>
-                <p className="quotationMarksP1">"</p>
-                <snap className="feedbackText">Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit, sed do eiusmod tempor incididunt ut</snap>
-                <p className="quotationMarksP2">"</p>
-                <img src="public/Images/Feedback2.jpg" alt="MohammedKhalid" width="200" height="200"/>
-                <p className="FeedbackWriter">Mohammed Khalid</p>
-                <p className="FeedbackStars">★★★★★</p>
-
-            </div>
-
-            <div className="Feedback">
-                
-                <div className="SmallBlackSquare"/>
-                <div className="SmallWhiteSquare"/>
-                <p className="quotationMarksP1">"</p>
-                <snap className="feedbackText">Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit, sed do eiusmod tempor incididunt ut</snap>
-                <p className="quotationMarksP2">"</p>
-                <img src="public/Images/Feedback3.jpg" alt="Luna Sanchaz" width="200" height="200"/>
-                <p className="FeedbackWriter">Luna Sanchaz</p>
-                <p className="FeedbackStars">★★★★★</p>
-                
-            </div>
-
-            <input type="search" placeholder="| GIVE FEEDBACK HERE" />
-            <span id="giveFeedbackStar">☆☆☆☆☆</span>
-            <SendHorizontal size={24} />
+            <input type="search" placeholder="| GIVE FEEDBACK HERE" className="typeF"/>
+            <span className="urate">☆☆☆☆☆</span>
+            <SendHorizontal className="send"size={24} />
 
             {/* Question: The following lines under div id="MakeOrder" are supposed to be the make order
             or add to cart an item option, and we want it to pop when they click on the button 
