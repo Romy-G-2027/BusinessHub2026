@@ -1,367 +1,330 @@
 @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 .Services {
-   background-color:#FFFBEB;
+    background-color:#FFFBEB;
 }
-
 
 .tinyMarketplace {
-   color:black;
-   font-weight:bold;
-   font-size:large;
+    color:black;
+    font-weight:bold;
+    font-size:large;
 }
-
 
 .ST{
-   font-weight:bolder;
-   font-size:40px;
+    font-weight:bolder;
+    font-size:40px;
 }
-
 
 #itemGolden {
-   color: #A87109;
+    color: #A87109;
 }
-
 
 .ServiceImage {
-   width:800px;
-   height:480px;
-   position:relative;
-   top:25px;
-   right:85px;
-   border-color:#BC7C03;
-   border-style: solid;
-   border-width:1.5px;
-   border-radius: 10px;
+    width:800px;
+    height:480px;
+    position:relative;
+    top:25px;
+    right:85px;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
+    border-radius: 10px;
 }
-
 
 .ServiceName{
-   color:black;
-   font-size:45px;;
-   font-weight:600;
-   position: relative;
-   top:50px;
-   right:175px;
-   font-family:'Poppins';
+    color:black;
+    font-size:45px;;
+    font-weight:600;
+    position: relative;
+    top:50px;
+    right:175px;
+    font-family:'Poppins';
 }
-
 
 #GI {
-   color:#A87109;
-   font-family:'Poppins';
+    color:#A87109;
+    font-family:'Poppins';
 }
-
 
 .time {
-   color:#BC7C03;
-   width:35px;
-   height:35px;
-   position:relative;
-   top:62px;
-   right:220px;
+    color:#BC7C03;
+    width:35px;
+    height:35px;
+    position:relative;
+    top:62px;
+    right:220px;
 }
-
 
 .weeks {
-   color:#A87109;
-   font-weight:700;
-   font-size:x-large;
-   position:relative;
-   top:53px;
-   right:210px;
-   font-family:'Inclusive Sans';
+    color:#A87109;
+    font-weight:700;
+    font-size:x-large;
+    position:relative;
+    top:53px;
+    right:210px;
+    font-family:'Inclusive Sans';
 }
-
 
 .PriceN{
-   color:#A87109;
-   font-size:40px;
-   font-weight:bold;
-   position:relative;
-   top:90px;
-   left:720px;
+    color:#A87109;
+    font-size:40px;
+    font-weight:bold;
+    position:relative;
+    top:90px;
+    left:720px;
 }
-
 
 .rates {
-   color:#A87109;
-   position:relative;
-   left:202px;
-   top:45px;
-   font-family:'Inclusive Sans';
+    color:#A87109;
+    position:relative;
+    left:202px;
+    top:45px;
+    font-family:'Inclusive Sans';
 }
-
 
 .Tag {
-   background-color: black;
-   width:150px;
-   height:20px;
-   color:#A87109;
-   border-radius: 50px;
-   font-weight: 450;
-   position:relative;
-   left:155px;
-   line-height:20px;
-   top:60px;
-   font-size: small;
-   font-family:'Inclusive Sans';
+    background-color: black;
+    width:150px;
+    height:20px;
+    color:#A87109;
+    border-radius: 50px;
+    font-weight: 450;
+    position:relative;
+    left:155px;
+    line-height:20px;
+    top:60px;
+    font-size: small;
+    font-family:'Inclusive Sans';
 }
-
 
 #crown {
-   color:#A87109;
-   position:relative;
-   top:33px;
-   right:190px;
-   width:18px;
+    color:#A87109;
+    position:relative;
+    top:33px;
+    right:190px;
+    width:18px;
 }
-
 
 .addToCart {
-   background-color: white;
-   border-color:#BC7C03;
-   border-style: solid;
-   border-width:1.5px;
-   border-radius: 10px;
-   color:#BC7C03;
-   font-weight: bold;
-   width:170px;
-   position:relative;
-   left:300px;
-   top:30px;
-   font-family:'Inclusive Sans';
-   font-size:medium;
+    background-color: white;
+    border-color:#BC7C03;
+    border-style: solid;
+    border-width:1.5px;
+    border-radius: 10px;
+    color:#BC7C03;
+    font-weight: bold;
+    width:170px;
+    position:relative;
+    left:300px;
+    top:30px;
+    font-family:'Inclusive Sans';
+    font-size:medium;
 }
-
 
 .Divider {
-   color:#DCD9D0;
-   width:800px;
-   position:relative;
-   top:50px;
-   right:10px;
-   margin-top:20px;
-   margin-bottom: 20px;;
+    color:#DCD9D0;
+    width:800px;
+    position:relative;
+    top:50px;
+    right:10px;
+    margin-top:20px;
+    margin-bottom: 20px;;
 }
-
 
 .Description {
-   font-family: "Inclusive Sans";
-   font-weight: 600;
-   position:relative;
-   top:50px;
-   font-size:30px;
-   color:black;
+    font-family: "Inclusive Sans";
+    font-weight: 600;
+    position:relative;
+    top:50px;
+    font-size:30px;
+    color:black;
 }
-
 
 .check {
-   color:#BC7C03;
-   position: relative;
-   top:90px;
-   right:390px;
-   margin-right:5px;
+    color:#BC7C03;
+    position: relative;
+    top:90px;
+    right:390px;
+    margin-right:5px;
 }
-
 
 .Descriptioni {
-   color: black;
-   font-weight: 500;
-   right:10px;
-   position: relative;
-   top:25px;
-   left:200px;
-   width:750px;
-   text-align: left;
-
+    color: black;
+    font-weight: 500;
+    right:10px;
+    position: relative;
+    top:25px;
+    left:200px;
+    width:750px;
+    text-align: left;
 
 }
-
 
 .alert {
-   color:#B41E21;
-   width:40px;
-   height:40px;
-   position: relative;
-   top:50px;
+    color:#B41E21;
+    width:40px;
+    height:40px;
+    position: relative;
+    top:50px;
 }
-
 
 .Notice{
-   color:#B41E21;
-   font-weight: 550;
-   font-size:30px;
-   position: relative;
-   top:40px;
+    color:#B41E21;
+    font-weight: 550;
+    font-size:30px;
+    position: relative;
+    top:40px;
 }
-
 
 .NoticeText {
-   color:#B41E21;
-   font-weight: 500;
-   position: relative;
-   top:60px;
-   left:180px;
-   width:750px;
-   text-align: center;
+    color:#B41E21;
+    font-weight: 500;
+    position: relative;
+    top:60px;
+    left:180px;
+    width:750px;
+    text-align: center;
 }
-
 
 .allfeedback {
-   display:flexbox;
-   justify-content:center;
+    display:flexbox;
+    justify-content:center;
 }
-
-
 
 
 .Feedback{
-   position:relative;
-   width:220px;
-   height:500px;
-   display:inline-block;
-   left:140px;
-   margin-right:110px;
+    position:relative;
+    width:220px;
+    height:500px;
+    display:inline-block;
+    left:140px;
+    margin-right:110px;
 }
-
 
 .SmallBlackSquare {
-   background-color: black;
-   position:absolute;
-   bottom:125px;
-   right:45px;
-   width:288px;
-   height:288px;
-   border-color:#BC7C03;
-   border-style: solid;
-   border-width:1.5px;
+    background-color: black;
+    position:absolute;
+    bottom:125px;
+    right:45px;
+    width:288px;
+    height:288px;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
 }
-
 
 .SmallWhiteSquare {
-   position:absolute;
-   right:70px;
-   top:110px;
-   background-color: white;
-   border-color:#BC7C03;
-   border-style: solid;
-   border-width:1.5px;
-   width: 288px;
-   height:288px;
+    position:absolute;
+    right:70px;
+    top:110px;
+    background-color: white;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
+    width: 288px;
+    height:288px;
 }
-
 
 .quotationMarksP1{
-   color:#000000;
-   font-family: "Poppins";
-   font-size:70px;
-   position: absolute;
-   top:150px;
-   right: 320px;
+    color:#000000;
+    font-family: "Poppins";
+    font-size:70px;
+    position: absolute;
+    top:150px;
+    right: 320px; 
 }
-
 
 .quotationMarksP2{
-   color:#000000;
-   font-family: "Poppins";
-   font-size:70px;
-   position: absolute;
-   top:330px;
-   right: 85px;
+    color:#000000;
+    font-family: "Poppins";
+    font-size:70px;
+    position: absolute;
+    top:330px;
+    right: 85px; 
 }
-
 
 .feedbackText {
-   color: black;
-   width:250px;
-   position:absolute;
-   top:155px;
-   right:90px;
-   font-family: "Inclusive Sans";
-   font-weight:500;
-   font-size:20px;
+    color: black;
+    width:250px;
+    position:absolute;
+    top:155px;
+    right:90px;
+    font-family: "Inclusive Sans";
+    font-weight:500;
+    font-size:20px;
 }
-
 
 .avatar {
-   border-radius: 100%;
-   width:60px;
-   height:60px;
-   position: absolute;
-   top:330px;
-   right:280px;
+    border-radius: 100%;
+    width:60px;
+    height:60px;
+    position: absolute;
+    top:330px;
+    right:280px;
 }
-
 
 .FeedbackWriter {
-   color:black;
-   font-weight: 650;
-   position:absolute;
-   right:70px;
-   top:338px;
-   font-family: "Inclusive Sans";
-   font-size: 20px;
-   width:200px;
-   text-align: left;
+    color:black; 
+    font-weight: 650;
+    position:absolute;
+    right:70px;
+    top:338px;
+    font-family: "Inclusive Sans";
+    font-size: 20px;
+    width:200px;
+    text-align: left;
 }
-
 
 .FeedbackStars {
-   color:#BC7C03;
-   font-weight: 650;
-   position:absolute;
-   right:195px;
-   top:360px;
-   font-family: "Inclusive Sans";
-   font-size: 18px;
+    color:#BC7C03; 
+    font-weight: 650;
+    position:absolute;
+    right:195px;
+    top:360px;
+    font-family: "Inclusive Sans";
+    font-size: 18px;
 }
-
 
 .typeF {
-   background-color: white;
-   border-color:#BC7C03;
-   border-style: solid;
-   border-width:1.5px;
-   border-radius: 50px;
-   width:650px;
-   height:50px;
-   position:relative;
-   left:10px;
-   bottom:70px;
+    background-color: white;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
+    border-radius: 50px;
+    width:650px;
+    height:50px;
+    position:relative;
+    left:10px;
+    bottom:70px;
 }
-
 
 .typeF::placeholder {
-   position:absolute;
-   left:25px;
+    position:absolute;
+    left:25px;
 }
-
 
 .urate {
-   color:#A87109;
-   font-size:x-large;
-   position:relative;
-   right:130px;
-   bottom:66px;
+    color:#A87109;
+    font-size:x-large;
+    position:relative;
+    right:130px;
+    bottom:66px;
 }
 
-
 .send {
-   color:#A87109;
-   position:relative;
-   right:30px;
-   width:25px;
-   height:25px;
-   bottom:50px;
-   right:80px;
-   background-color: white;
-   border-radius: 100%;
-   padding:12px;
-   border-color:#BC7C03;
-   border-style: solid;
-   border-width:1.5px;
-   border-radius: 50px;
+    color:#A87109;
+    position:relative;
+    right:30px;
+    width:25px;
+    height:25px;
+    bottom:50px;
+    right:80px;
+    background-color: white;
+    border-radius: 100%;
+    padding:12px;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
+    border-radius: 50px;
 }
