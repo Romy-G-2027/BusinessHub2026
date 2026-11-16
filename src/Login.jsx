@@ -15,7 +15,7 @@ function Login () {
 
                 <div>
                     <div>
-                        <p><label htmlFor="Email">Email Adress</label></p>
+                        <p><label htmlFor="Email">Email Address</label></p>
                         <input type="email" className="inputBox"/>
                     </div>
 

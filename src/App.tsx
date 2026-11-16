@@ -16,32 +16,49 @@ import ServiceNumber6 from './ServiceN6';
 import ServiceNumber7 from './ServiceN7';
 import ServiceNumber8 from './ServiceN8';
 import ServiceNumber9 from './ServiceN9';
+import InvestmentsSearch from './Investments';
+import InvestAgreement from './InvestAgreement';
+import Popup from './Popup';
+import CompForm from './CompForm';
+
+
+
 
 function App() {
-  return (
-    <>
-      <NavigationBar />
-      <Home />
-      <FooterNew />
-      <Login />
-      <Signin />
-      <Forgotpassword />
-      <Marketplace />
-      <MyCart />
-      <ServiceNumber1 />
-      <ServiceNumber2 />
-      <ServiceNumber3 />
-      <ServiceNumber4 />
-      <ServiceNumber5 />
-      <ServiceNumber6 />
-      <ServiceNumber7 />
-      <ServiceNumber8 />
-      <ServiceNumber9 />
-    </>
-  );
+ return (
+   <>
+     <NavigationBar />
+     <Home />
+     <FooterNew />
+     <Login />
+     <Signin />
+     <Forgotpassword />
+     <Marketplace />
+     <MyCart />
+     <ServiceNumber1 />
+     <ServiceNumber2 />
+     <ServiceNumber3 />
+     <ServiceNumber4 />
+     <ServiceNumber5 />
+     <ServiceNumber6 />
+     <ServiceNumber7 />
+     <ServiceNumber8 />
+     <ServiceNumber9 />
+     <InvestAgreement/>
+     <InvestmentsSearch />
+     <Popup/>
+     <CompForm/>
+
+
+
+
+   </>
+ );
 }
 
+
 export default App;
+
 
 /*import Navigation from './Navigation';
 import Home from './Home';
@@ -55,19 +72,22 @@ import MyCart from './MyCart'
 import ServiceNumber1 from './ServiceN1'
 
 
+
+
 function App (){
-  return (
-    <BrowserRoute>
-      <Navigation />
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/Marketplace" element={<Marketplace/>} />
-          <Route path="/Investments" element={<Investments/>} />
-          <Route path="/Forms" element={<Forms/>} />
-          <Route path="/Contact Us" element={<Contact Us/>} />
-        </Routes>
-    </BrowserRoute>
-  );
+ return (
+   <BrowserRoute>
+     <Navigation />
+       <Routes>
+         <Route path="/" element={<Home/>} />
+         <Route path="/Marketplace" element={<Marketplace/>} />
+         <Route path="/Investments" element={<Investments/>} />
+         <Route path="/Forms" element={<Forms/>} />
+         <Route path="/Contact Us" element={<Contact Us/>} />
+       </Routes>
+   </BrowserRoute>
+ );
 }
+
 
 export default App;*/
