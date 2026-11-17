@@ -1,4 +1,4 @@
-import NavigationBar from '././Navigation';
+import NavigationBar from './Navigation';
 import Home from './Home';
 import FooterNew from './FooterNew';
 import Forgotpassword from './Forgotpassword';
@@ -44,10 +44,10 @@ function App() {
      <ServiceNumber7 />
      <ServiceNumber8 />
      <ServiceNumber9 />
-     <InvestAgreement/>
-     <InvestmentsSearch />
-     <Popup/>
-     <CompForm/>
+<InvestAgreement/>
+<InvestmentsSearch />
+<Popup/>
+<CompForm/>
 
 
 
