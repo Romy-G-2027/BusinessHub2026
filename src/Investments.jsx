@@ -61,4 +61,4 @@ function InvestmentsSearch () {
     );
 }
  
-export default InvestmentsSearch
+export default InvestmentsSearch;
