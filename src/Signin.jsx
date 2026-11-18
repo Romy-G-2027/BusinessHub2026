@@ -8,7 +8,7 @@ function Signin () {
                 <img id="BHLogo"src="/public/images/Logo1.png" alt="BH Logo"></img>
             </div>
 
-            <div className="rigthColumn">
+            <div>
                 <div>
                     <h2>Sign In</h2>
                 </div>
