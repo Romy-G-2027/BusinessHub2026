@@ -18,12 +18,9 @@ import ServiceNumber8 from './ServiceN8';
 import ServiceNumber9 from './ServiceN9';
 import InvestmentsSearch from './Investments';
 import InvestAgreement from './InvestAgreement';
-import Popup from './Popup';
 import CompForm from './CompForm';
-
-
-
-
+import InvestForm from './InvestForm';
+  
 function App() {
  return (
    <>
@@ -44,10 +41,11 @@ function App() {
      <ServiceNumber7 />
      <ServiceNumber8 />
      <ServiceNumber9 />
-<InvestAgreement/>
-<InvestmentsSearch />
-<Popup/>
-<CompForm/>
+      <InvestAgreement/>
+      <InvestmentsSearch />
+      <Popup/>
+      <CompForm/>
+      <InvestForm />
 
 
 

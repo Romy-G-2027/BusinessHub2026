@@ -1,30 +1,33 @@
-import { useState } from "react";
 import "./Popup.css";
 
-function Popup() {
-    const [isOpen, setIsOpen] = useState(true);
-
-    if (!isOpen) return null;
-
+function Popup({ onClose }) {
     return (
-        <div className="popup_overlay">
-            <div className="popup_container">
+        <div className="popup_overlay" onClick={onClose}>
+
+            <div
+                className="popup_container"
+                onClick={(e) => e.stopPropagation()}
+            >
 
                 <button
+                    type="button"
                     className="popup_close"
-                    onClick={() => setIsOpen(false)}
+                    onClick={onClose}
                 >
                     X
                 </button>
 
-                <h3 className= "howit_works">How It Works</h3>
+                <h3 className="howit_works">
+                    How It Works
+                </h3>
 
                 <div className="popup_steps">
 
                     <div className="popup_step">
                         <div className="popup_number">1</div>
+
                         <h2>Submit your information</h2>
-                        
+
                         <p>
                             Fill out the form with your company
                             details and investment opportunity.
@@ -33,8 +36,9 @@ function Popup() {
 
                     <div className="popup_step">
                         <div className="popup_number">2</div>
-                        <h2> Our Team Reviews</h2>
-                       
+
+                        <h2>Our Team Reviews</h2>
+
                         <p>
                             We check your information for
                             alignment with our platform standards.
@@ -43,16 +47,19 @@ function Popup() {
 
                     <div className="popup_step">
                         <div className="popup_number">3</div>
+
                         <h2>Go Live on Our Website</h2>
+
                         <p>
                             In approximately 1–2 business days
                             your company will be reviewed.
-                        
                         </p>
                     </div>
 
                 </div>
+
             </div>
+
         </div>
     );
 }

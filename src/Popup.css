@@ -1,23 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-.popup_container{
-    background-color: rgb(255, 255, 255);
-    font-family:'Poppins', sans-serif ;
+.popup_overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.popup_container {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
     color: black;
+
     position: relative;
     width: 80%;
     max-width: 700px;
     min-height: 220px;
+
     border-radius: 5px;
     border: 2px solid #BC7C03;
     padding: 20px 15px;
 
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
-.popup_number{
-    color:black;
-}
-.popup_close{
+
+.popup_close {
     position: absolute;
     top: 10px;
     right: 12px;
@@ -30,21 +42,16 @@
     cursor: pointer;
 }
 
-.popup_step p {
-    margin:3px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    
-}
-
-.popup_step h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
 .howit_works {
     font-size: 29px;
-    margin-bottom: 30px
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.popup_steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
 }
 
 .popup_number {
@@ -60,24 +67,35 @@
 
     margin: 0 auto 15px;
     font-weight: bold;
-   
+    color: black;
 }
 
-
-.popup_overlay {
-    position: fixed;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.15);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    z-index: 1000;
+.popup_step h2 {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.popup_steps {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.popup_step p {
+    margin: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .popup_container {
+        width: 90%;
+        max-height: 85vh;
+        overflow-y: auto;
+    }
+
+    .popup_steps {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .howit_works {
+        font-size: 24px;
+    }
 }
