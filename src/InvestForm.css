@@ -1,0 +1,259 @@
+.investment-page {
+    width: 100%;
+    padding: 35px 8% 40px;
+    box-sizing: border-box;
+    background-color: #FFFCF0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.investment-heading {
+    position: relative;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.investment-heading h1 {
+    
+    font-weight: bold;
+ 
+    color: black;
+}
+
+.investment-heading p {
+    font-size: 16px;
+    margin: 0;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.investment-help {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+    border-radius: 50%;
+    background: transparent;
+
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+
+    cursor: pointer;
+    appearance: none;
+}
+
+.investment-form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.investment-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    width: 100%;
+    align-items: start;
+}
+
+.investment-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+}
+
+.investment-group label {
+    display: block;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+
+.investment-group small {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+
+.investment-row .investment-group {
+    display: grid;
+    grid-template-rows: auto 48px 42px;
+    align-content: start;
+    gap: 5px;
+}
+
+.investment-row .investment-group label {
+    margin-bottom: 0;
+}
+
+.investment-row .investment-group small {
+    height: 48px;
+    min-height: 48px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.investment-row .investment-input {
+    width: 100%;
+    height: 42px;
+    min-height: 42px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.investment-input {
+    width: 100%;
+    min-height: 42px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    background-color: #F1DAAC;
+    border: 1px solid whitesmoke;
+    border-radius: 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.investment-input::placeholder {
+    color: #929292;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.investment-input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.investment-textarea {
+    min-height: 85px;
+    resize: vertical;
+}
+
+
+.investment-upload {
+    min-height: 100px;
+    resize: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.investment-file {
+    display: none;
+}
+
+.investment-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 100%;
+    max-width: 100%;
+    height: 62px;
+
+    margin: 5px auto 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #BC7C03;
+    border-radius: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #BC7C03;
+}
+
+.investment-submit svg {
+    width: 26px;
+    height: 26px;
+    display: block;
+    flex-shrink: 0;
+}
+
+
+
+.investment-page {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+.investment-row {
+        gap: 14px;
+    }
+    
+
+.investment-page {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+.investment-input {
+        width: 100%;
+        height: 50px;
+        min-height: 50px;
+        padding: 8px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+    
+.investment-input::placeholder {
+        font-size: 16px;
+        color: #929292;
+        opacity: 1;
+    }
+    
+.investment-row .investment-group {
+        grid-template-rows: auto 48px 50px;
+    }
+    
+.investment-row .investment-input {
+        height: 50px;
+        min-height: 50px;
+    }
+    
+.investment-textarea {
+        height: 85px;
+        min-height: 85px;
+    }
+    
+.investment-upload {
+        height: 100px;
+        min-height: 100px;
+    }
+
+
+.investment-submit{
+    margin-top: 60px;
+}
