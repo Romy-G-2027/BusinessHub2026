@@ -1,4 +1,3 @@
-/*import Header from './Header';      <Header />*/
 import Home from './Home';
 import FooterNew from './FooterNew';
 import Forgotpassword from './Forgotpassword';
@@ -7,22 +6,21 @@ import Login from './Login';
 import './App.css';
 import InvestmentsSearch from './Investments';
 import InvestAgreement from './InvestAgreement';
-import Popup from './Popup';
 import CompForm from './CompForm';
+import InvestForm from './InvestForm';
 
 function App() {
   return (
     <>
       <Home />
       <FooterNew />
-      <InvestAgreement/>
+      <InvestAgreement />
       <Login />
       <Signin />
       <Forgotpassword />
       <InvestmentsSearch />
-      <Popup/>
-      <CompForm/>
-
+      <CompForm />
+      <InvestForm />
     </>
   );
 }
