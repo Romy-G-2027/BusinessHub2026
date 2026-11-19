@@ -1,7 +1,10 @@
 import './Marketplace.css';
 import {Search, SlidersHorizontal, ShoppingCartPlus} from "lucide-react"; 
+import { useNavigate } from 'react-router-dom';
 
 function Marketplace () {
+
+    const navigate = useNavigate();
 
     return (
 
@@ -26,7 +29,7 @@ function Marketplace () {
                 looking to make a lasting first impression. </p>
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(45)</span></p>
                 <p className="label"> Most Ordered</p>
-                <a href="#GoldenPackage" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN1')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP" />
 
             </div>
@@ -43,7 +46,7 @@ function Marketplace () {
                 that help your brand stand out.</p>
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(25)</span></p>
                 <p className="label"> Logo Design</p>
-                <a href="#LogoDesign" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN2')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP" />
 
             </div>
@@ -60,7 +63,7 @@ function Marketplace () {
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(25)</span></p>
                 <p className="label"> Business Card</p>
                 <p className="labelT"> Social media</p>
-                <a href="#cardSocial" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN3')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP"/>
 
             </div>
@@ -78,7 +81,7 @@ function Marketplace () {
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(25)</span></p>
                 <p className="label"> Social media</p>
                 <p className="labelT"> Advertisements</p>
-                <a href="#SocialMedia" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN4')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP"/>
 
             </div>
@@ -96,7 +99,7 @@ function Marketplace () {
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(25)</span></p>
                 <p className="label"> Flyers Design</p>
                 <p className="labelT"> Advertisements</p>
-                <a href="#FlyersP" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN5')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP" />
 
             </div>
@@ -113,7 +116,7 @@ function Marketplace () {
                  Create memorable content that connects with your audience.</p>
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(25)</span></p>
                 <p id="vI"> Video Advertisements</p>
-                <a href="#Vadvertisement" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN6')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP" />
 
             </div>
@@ -131,7 +134,7 @@ function Marketplace () {
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(25)</span></p>
                 <p className="label"> Courses </p>
                 <p className="labelT"> Educational </p>
-                <a href="#CourseOne" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN7')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP" />
 
             </div>
@@ -149,7 +152,7 @@ function Marketplace () {
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(25)</span></p>
                 <p className="label"> Courses </p>
                 <p className="labelT"> Educational </p>
-                <a href="#CourseTwo" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN8')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP" />
 
             </div>
@@ -167,7 +170,7 @@ function Marketplace () {
                 <p className="rating"><span className="stars">★★★★★ </span><span className="NumberOfRates">(25)</span></p>
                 <p className="label"> Courses </p>
                 <p className="labelT"> Educational </p>
-                <a href="#CourseThree" className="lButton">Learn More</a>
+                <button className="lButton" onClick={() => navigate('/ServiceN9')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP" />
         </div>
             </div>
