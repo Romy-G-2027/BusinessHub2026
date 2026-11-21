@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 #cartTitle {
     font-family: 'Momo Trust Display', sans-serif;
     font-size: 45px;
@@ -12,14 +16,77 @@
     border-color:#BC7C03; 
     border-style: solid;
     border-width:1.5px;
-    width:800px;
-    height:50px;
+    width:700px;
+    height:70px;
+    position:relative;
+    left:220px;
+    top:50px;
 }
 
+.icon {
+    color:#BC7C03;
+    width:35px;
+    height:35px;
+    position:relative;
+    left:50px;
+    top:15px;
+    display:grid;
+    justify-content:center;
+}
 
+.ItemTitle {
+    color:#BC7C03;
+    font-weight: 650;
+    font-size:x-large;
+    position:relative;
+    bottom: 15px;
+    left:120px;
+    display:grid;
+    justify-content:flex-start;
+}
+
+.ItemPrice {
+    color:black;
+    font-weight: 650;
+    font-size:larger;
+    position:relative;
+    bottom:40px;
+    left:245px;
+}
+
+.x {
+    color:#B41E21;
+    width:25px;
+    height:25px;
+    position:relative;
+    bottom:35px;
+    left:270px;
+    text-align: right;
+}
+
+.makeOrder {
+    background-color:#DFB361;
+    width:700px;
+    color:black;
+    font-weight: 600;
+    font-size: larger;
+    position:relative;
+    top:50px;
+    left:65px;
+    padding-right: 300px;
+}
+
+.ItemsNumber {
+    color: #424242;
+    font-weight: 450;
+    position:relative;
+    top:50px;
+    font-size:larger;
+
+}
 /*
 import './MyCart.css';
-import {X, Package,TvMinimalPlay, PencilRuler, ShoppingBag} from "lucide-react"; 
+import {X, Package,TvMinimalPlay, PencilRulerss ShoppingBag} from "lucide-react"; 
 
 function MyCart() {
     return (
