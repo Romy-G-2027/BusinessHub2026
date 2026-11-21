@@ -65,6 +65,7 @@ function Marketplace () {
                 <p className="labelT"> Social media</p>
                 <button className="lButton" onClick={() => navigate('/ServiceN3')}>Learn More</button>
                 <ShoppingCartPlus size={24} className="CartP"/>
+                <button className="icon"> </button>
 
             </div>
 
