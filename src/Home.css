@@ -11,13 +11,18 @@
  }
  button {
     background-color: #DFB361;
-    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
- 
- 
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
  }
  
  
