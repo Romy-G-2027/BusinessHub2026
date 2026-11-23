@@ -1,7 +1,18 @@
+import { useNavigate } from "react-router-dom";
 import './InvestAgreement.css';
 import { SendHorizontal } from "lucide-react";
 
-function InvestAgreement () {
+function InvestAgreement ({ onBack }) {
+    const navigate = useNavigate();
+
+    const handleContinue = () => {
+        if (onBack) {
+            onBack();
+        } else {
+            navigate("/Forms");
+        }
+    };
+
     return(
         <main>
             <h1>Agreement Form </h1>
@@ -98,7 +109,11 @@ function InvestAgreement () {
                 </label>
  
  
-                <button className="continue_button">
+                <button
+                    type="button"
+                    className="continue_button"
+                    onClick={handleContinue}
+                >
                     Agree &amp; Continue <SendHorizontal size={24} />
 
  
@@ -116,6 +131,3 @@ function InvestAgreement () {
  
  
  export default InvestAgreement;
- 
- 
- 

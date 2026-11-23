@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.forms-page {
+    width: 100%;
+    min-height: 100vh;
+    padding: 55px 20px 100px;
+    box-sizing: border-box;
+
+    background-color: #FFFCF0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.forms-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.forms-heading h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.forms-heading p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    margin: 0;
+}
+
+.forms-list {
+    width: 100%;
+    max-width: 475px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.form-card {
+    width: 100%;
+    min-height: 130px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    background-color: white;
+    border: 2px solid #F1DAAC;
+    border-radius: 4px;
+
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: inherit;
+    cursor: pointer;
+
+    transition: border-color 0.2s;
+}
+
+.form-card:hover,
+.form-card:focus-visible {
+    border-color: #BC7C03;
+}
+
+.form-card-icon {
+    width: 85px;
+    height: 85px;
+    min-width: 85px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F1EAD8;
+    border-radius: 12px;
+
+    color: #89651D;
+}
+
+.form-card-icon svg {
+    width: 60px;
+    height: 60px;
+    stroke-width: 1.5;
+}
+
+.form-card-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.form-card-number {
+    display: block;
+    color: #D9A12F;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.form-card-content h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+}
+
+.form-card-content p {
+    font-size: 11px;
+    line-height: 1.5;
+    color: black;
+    margin: 2px 0 8px;
+}
+
+.form-card-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    color: #D9A12F;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.form-card-arrow {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    color: #D9A12F;
+    stroke-width: 2;
+}
+
+/* Wrapper around an opened form */
+.form-view {
+    position: relative;
+    background-color: #FFFCF0;
+    min-height: 100vh;
+}
+
+
+.back-bar {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 20px 5% 20px;
+    
+}
+
+.back-to-forms {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 18px;
+
+    background-color: white;
+    border: 1px solid #BC7C03;
+    border-radius: 5px;
+    color: #BC7C03;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.back-to-forms:hover {
+    background-color: #F1DAAC;
+}
+
+.form-view-content {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 600px) {
+    .forms-page {
+        padding: 40px 18px 60px;
+    }
+
+    .forms-heading h1 {
+        font-size: 25px;
+    }
+
+    .forms-heading p {
+        font-size: 12px;
+    }
+
+    .forms-list {
+        gap: 25px;
+    }
+
+    .form-card {
+        padding: 14px;
+        gap: 12px;
+    }
+
+    .form-card-icon {
+        width: 65px;
+        height: 65px;
+        min-width: 65px;
+    }
+
+    .form-card-icon svg {
+        width: 45px;
+        height: 45px;
+    }
+
+    .form-card-arrow {
+        width: 22px;
+        min-width: 22px;
+    }
+
+    .back-bar {
+        padding: 20px 18px 0;
+    }
+}
