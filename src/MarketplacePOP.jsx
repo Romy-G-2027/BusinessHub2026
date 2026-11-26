@@ -20,60 +20,56 @@ function MakeOrder ({isOpen, closeMakeOrder}) {
 
                 <h2 className="title">Make Order</h2>
                 <Package size={24} className="iconI"/>
-                <span className="orderName">The Golden package</span>
-                <br/>
+                <span className="orderinfo">The Golden package</span>
                 <div className="lightLine"></div>
+                <div className="LineT"></div>
                 <DollarSign size={24} className="iconI"/>
-                <span className="orderPrice">$499.99</span>
-                <br/>
+                <span className="orderinfo">$499.99</span>
                 <CalendarClock size={24} className="iconI"/>
-                <span className="orderTime">3-5 weeks</span>
+                <span className="orderinfo">3-5 weeks</span>
                 <div className="dividing line 1"></div>
                 <ClipboardList size={24} className="details" />
-                <span className="OrderItems">Order Items</span>
-                <br/>
-                <Check size={24} className="check" />
-                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} className="check"/>
-                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
-                <Check size={24} className="check"/>
-                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} className="check"/>
-                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} className="check"/>
-                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} className="check" />
-                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
+                <span className="OrderItems">Order Items:</span>
+
+                <Check size={24} className="checkD" />
+                <p className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</p>
+                
+                <Check size={24} className="checkD"/>
+                <p className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</p>
+                
+                <Check size={24} className="checkD"/>
+                <p className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</p>
+                
+                <Check size={24} className="checkD"/>
+                <p className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</p>
+                
+                <Check size={24} className="checkD"/>
+                <p className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</p>
+                
+                <Check size={24} className="checkD" />
+                <p className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</p>
+                
                 <div className="dividingLine2"></div>
                 {/*<p className="Coupon">Coupon Code</p>
                 <input type="search" placeholder="eg:businessHub2026" />
                 <button className="Redeem">Redeem</button>
             <div className="dividingLine3"></div>*/}
                 
-                <label>
-                    <input type="checkbox" className="checkbox" />
-                    <span className="boldText">I agree </span> that Business Hub may have an agreed upon
-                percentage of equity in my company if I purchased a website with more functionalities and technology
+                <label className="checkbox1" >
+                    <input type="checkbox" />
+                    <span className="checkmark"></span>
+                    <p className="agree"><span className="boldText">I agree </span> that Business Hub may have an agreed upon
+                percentage of equity in my company if I purchased a website with more functionalities and technology </p>
                 </label>
-                <br/>
-                <label>
-                    <input type="checkbox"  className="checkbox"/>
-                    <span className="boldText">I already </span> filled my company information form in 
-                business hub earlier (We CAN NOT provide you with the service unless you fill it first )
+                <label className="checkbox1" >
+                    <input type="checkbox" />
+                    <span className="checkmark"></span>
+                    <p className="agree"><span className="boldText">I already </span> filled my company information form in 
+                business hub earlier (We CAN NOT provide you with the service unless you fill it first ) </p>
                 </label>
-                {/*<Square size={24} />
-                <span className="Agreement1"><span className="boldText">I agree </span> that Business Hub may have an agreed upon
-                percentage of equity in my company if I purchased a website with more functionalities and technology</span>
-                <Square size={24} />
-                <span className="Agreement2"><span className="boldText">I already </span> filled my company information form in 
-                business hub earlier (We CAN NOT provide you with the service unless you fill it first )</span>*/}
-                <button id="AddToCart">ADD TO CART <ShoppingCartPlus size={24} /> </button>
-                <button className="PriceButton">$499.99</button>
+                <div className="lineF" />
+                <button className="AddToCart">ADD TO CART <ShoppingCartPlus className="carti" size={24} /> </button>
+                <p className="PriceButton">$499.99</p>
                     </div>
                 </div>
             )}
@@ -82,21 +78,3 @@ function MakeOrder ({isOpen, closeMakeOrder}) {
 }
 
 export default MakeOrder;
-
-/*import "./MarketplacePOP.css";
-
-function MakeOrder({ onClose }) {
-    return (
-        <div className="Order_overlay" onClick={onClose}>
-            <div
-                className="Order_container"
-                onClick={(e) => e.stopPropagation()}
-            >
-
-            </div>
-        </div>
-            
-    );
-}
-
-export default MakeOrder;*/
