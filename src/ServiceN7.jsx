@@ -31,20 +31,19 @@ function ServiceNumber7() {
 
             <h2 className="Description">Description</h2>
             <Check className="check"size={24} />
-            <p className="Descriptioni">Starting Your Business from Zero: Learn how to turn an initial idea into a
-             structured business by identifying a profitable niche, researching the market, defining your target 
-             audience, choosing a business model, and developing a clear business plan.</p>
+            <p className="Descriptioni">Complete Brand Identity: A custom logo, brand colors, typography, and visual elements
+             designed to establish a recognizable and professional business identity.</p>
             <Check className="check" size={24} />
-            <p className="Descriptioni">Building Your Brand and Online Presence: Understand how to establish a professional company
-             identity through logo creation, brand positioning, website development, social media accounts, and the essential digital tools needed to introduce your business to the market.</p>
+            <p className="Descriptioni">Professional Business Stationery: Customized business card and stationery 
+            designs that reflect your brand and maintain consistency across business communications.</p>
             <Check className="check" size={24} />
-            <p className="Descriptioni">Marketing, Sales, and Customer Acquisition: Explore practical marketing strategies, including social media marketing, 
-            content creation, advertising campaigns, customer engagement, lead generation, and sales techniques to attract potential customers and build a loyal audience.</p>
+            <p className="Descriptioni">Branded Digital Content: Custom social media graphics and promotional visuals designed 
+            to showcase your services and maintain a consistent online presence.</p>
             <Check className="check" size={24} />
-            <p className="Descriptioni">Business Growth and Professional Development: Learn how to organize business operations, manage daily responsibilities, 
-            use productivity and management tools, evaluate performance, and develop strategies that help transform a small startup into a more established company.</p>
+            <p className="Descriptioni">Integrated Marketing Materials: A coordinated collection of branding and 
+            promotional designs that create a polished visual presentation across print and digital platforms.</p>
 
-            <hr className="Divider"/> {/* Line */}
+            <hr className="DividerTw"/> {/* Line */}
 
             <ShieldAlert className="alert" size={24} />
             <span className="Notice">Important Notice</span>
@@ -55,8 +54,8 @@ function ServiceNumber7() {
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <hr className="Divider" /> {/* Line */}
-            <p className="Description">Feedback</p>
+            <hr className="DividerTH" /> {/* Line */}
+            <p className="DescriptionT">Feedback</p>
 
             <div className="allfeedback">
                 <div className="Feedback">
@@ -64,8 +63,8 @@ function ServiceNumber7() {
                     <div className="SmallBlackSquare"/>
                     <div className="SmallWhiteSquare"/>
                     <p className="quotationMarksP1">"</p>
-                    <p className="feedbackText">This course helped me understand how to approach starting a business step by step. 
-                    From choosing an idea to building a brand and learning marketing strategies, everything was explained in a practical way.</p>
+                    <p className="feedbackText">The package brought our branding together beautifully and 
+                    gave our business a professional appearance. Everything felt consistent and carefully designed.</p>
                     <p className="quotationMarksP2">"</p>
                     <img src="public/Images/Feedback1.jpg" alt="DanielFoster" width="200" height="200" className="avatar"/>
                     <p className="FeedbackWriter">Daniel Foster</p>
@@ -78,8 +77,8 @@ function ServiceNumber7() {
                     <div className="SmallBlackSquare"/>
                     <div className="SmallWhiteSquare"/>
                     <p className="quotationMarksP1">"</p>
-                    <p className="feedbackText">I learned about tools and strategies I had never considered before. 
-                    The sections about branding, social media, and finding customers were especially useful for understanding how a business actually operates.</p>
+                    <p className="feedbackText">I loved how every design worked together to create a cohesive brand
+                     identity. The materials gave our company a polished presentation.</p>
                     <p className="quotationMarksP2">"</p>
                     <img src="public/Images/Feedback2.jpg" alt="MayaThompson" width="200" height="200" className="avatar"/>
                     <p className="FeedbackWriter">Maya Thompson</p>
@@ -92,9 +91,8 @@ function ServiceNumber7() {
                     <div className="SmallBlackSquare"/>
                     <div className="SmallWhiteSquare"/>
                     <p className="quotationMarksP1">"</p>
-                    <p className="feedbackText">A great starting point for anyone who 
-                    wants to build a company. It covers the important stages of business development and explains 
-                    how to move from an idea toward a professional operation.</p>
+                    <p className="feedbackText">The designs were clean, professional, and consistent across all materials. 
+                    I appreciated the attention to detail and overall quality.</p>
                     <p className="quotationMarksP2">"</p>
                     <img src="public/Images/Feedback3.jpg" alt="AdamRichardson" width="200" height="200" className="avatar"/>
                     <p className="FeedbackWriter">Adam Richardson</p>
@@ -107,77 +105,7 @@ function ServiceNumber7() {
             <span className="urate">☆☆☆☆☆</span>
             <SendHorizontal className="send"size={24} />
 
-            {/* Question: The following lines under div id="MakeOrder" are supposed to be the make order
-            or add to cart an item option, and we want it to pop when they click on the button 
-            ADD TO CART, but I am not sure if I have to make a whole new page for it or if there 
-            are lines within the same page to show this, because each item would need one of these 
-            that's different in contnet? */}
-
-            <div id="MakeOrder">
-
-                <div className="boxBackground"></div>
-                <X size={12} />
-                <h2 className="make order">Make Order</h2>
-                <Package size={24} />
-                <span className="orderName">The Golden package</span>
-                <br/>
-                <div className="lightLine"></div>
-                <DollarSign size={24} />
-                <span className="orderPrice">$499.99</span>
-                <br/>
-                <CalendarClock size={24} />
-                <span className="orderTime">3-5 weeks</span>
-                <div className="dividing line 1"></div>
-                <ClipboardList size={24} />
-                <span className="Order Items">Order Items</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered1">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered2">Professional Website with 2 integrations and 7 pages limit</span>
-                <Check size={24} />
-                <span className="ItemsOffered3">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered4">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered5">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered6">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <div className="dividingLine2"></div>
-                <p className="Coupon">Coupon Code</p>
-                <input type="search" placeholder="eg:businessHub2026" />
-                <button className="Redeem">Redeem</button>
-                <div className="dividingLine3"></div>
-                
-                <label>
-                    <input type="checkbox" />
-                    <span className="boldText">I agree </span> that Business Hub may have an agreed upon
-                percentage of equity in my company if I purchased a website with more functionalities and technology
-                </label>
-                <br/>
-                <label>
-                    <input type="checkbox" />
-                    <span className="boldText">I already </span> filled my company information form in 
-                business hub earlier (We CAN NOT provide you with the service unless you fill it first )
-                </label>
-                {/*<Square size={24} />
-                <span className="Agreement1"><span className="boldText">I agree </span> that Business Hub may have an agreed upon
-                percentage of equity in my company if I purchased a website with more functionalities and technology</span>
-                <Square size={24} />
-                <span className="Agreement2"><span className="boldText">I already </span> filled my company information form in 
-                business hub earlier (We CAN NOT provide you with the service unless you fill it first )</span>*/}
-                <button id="AddToCart">ADD TO CART <ShoppingCartPlus size={24} /> </button>
-                <button className="PriceButton">$499.99</button>
-
-
-
-
-            </div>
+        
         </div>
     );
 }
