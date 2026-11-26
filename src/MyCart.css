@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+
+
 #cartTitle {
     font-family: 'Momo Trust Display', sans-serif;
     font-size: 45px;
@@ -64,64 +66,60 @@
     text-align: right;
 }
 
-.makeOrder {
-    background-color:#DFB361;
+.Checkout {
+    background-color:#e3b35a;
     width:700px;
     color:black;
     font-weight: 600;
     font-size: larger;
     position:relative;
     top:50px;
-    left:65px;
+    left:102px;
     padding-right: 300px;
+    border-radius: 0%;
 }
 
 .ItemsNumber {
-    color: #424242;
+    color: #BC7C03;
     font-weight: 450;
     position:relative;
     top:50px;
     font-size:larger;
-
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    right:100px;
 }
+
+.divider {
+    width:700px;
+    position:relative;
+    bottom:60px;
+    left:220px;
+    border-color:#b1aba0b6; 
+    border-style: solid;
+    border-width:1px;
+}
+
+.IT {
+    color: #000000;
+    font-weight: 450;
+    position:relative;
+    top:50px;
+    font-size:larger;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    right:100px;
+    font-weight: 650;
+}
+
 /*
-import './MyCart.css';
-import {X, Package,TvMinimalPlay, PencilRulerss ShoppingBag} from "lucide-react"; 
-
-function MyCart() {
-    return (
-        <div id="MyCart">
-            <h2 id="cartTitle">My Cart</h2>
-            <div className="ItemBox">
-                <Package size={24} />
-                <span className="ItemTitle">The Golden Package</span>
-                <span className="ItemPrice">$499.99</span>
-            </div>
-                <br/>
-            <div className="ItemBox">
-                <TvMinimalPlay size={24} />
-                <span className="ItemTitle">How to Manage My Company?</span>
-                <span className="ItemPrice">$14.99</span>
-                <X size={12} />
-            </div>
-                <br/>
-            <div className="ItemBox">
-                <PencilRuler size={24} />
-                <span className="ItemTitle">5 Video Advertisements</span>
-                <span className="ItemPrice">$19.99</span>
-                <X size={12} />
-            </div>
-                <br/>
-            <div className="ItemBox">
-                <button className="makeOrder">Make Order <ShoppingBag size={24}/></button>
-                <span className="ItemsNumber"> Total: 3 items</span>
-                <br/>
-                <span className="TotalOrderCost"> Cost: $534.97 </span>
-            </div>
-
-        </div> 
-    );
-}
-
-export default MyCart;
+<p className="IT">Items 3</p>
+            <p className="COst"> $534.97</p>
+            <p className="Coupon">Coupon Code</p>
+                <input type="search" placeholder="eg:businessHub2026" />
+                <button className="Redeem">Redeem</button>
+            <div className="divider" />
+            <button className="Checkout">Checkout <ShoppingBag size={24}/></button>
 */

@@ -24,7 +24,6 @@ import InvestmentsSearch from './Investments';
 import InvestAgreement from './InvestAgreement';
 import CompForm from './CompForm';
 import InvestForm from './InvestForm';
-import Forms from './Forms'
 
 import './App.css';
 
@@ -63,7 +62,7 @@ function App() {
         <Route path="/CompForm" element={<CompForm />} />
 
         <Route path="/InvestForm" element={<InvestForm />} />
-        <Route path = "/Forms" element={<Forms/>}/>
+
       </Routes>
 
       <FooterNew />

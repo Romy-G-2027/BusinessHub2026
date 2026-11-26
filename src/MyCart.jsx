@@ -26,10 +26,13 @@ function MyCart() {
                 <X size={12} className="x"/>
             </div>
                 <br/>
-                <button className="makeOrder">Make Order <ShoppingBag size={24}/></button>
-                <span className="ItemsNumber">| 3 Items  | $534.97</span>
-                <br/>
-
+            <p className="IT">Items 3</p>
+            <p className="COst"> $534.97</p>
+            <p className="Coupon">Coupon Code</p>
+                <input type="search" placeholder="eg:businessHub2026" />
+                <button className="Redeem">Redeem</button>
+            <div className="divider" />
+            <button className="Checkout">Checkout <ShoppingBag size={24}/></button>
         </div> 
     );
 }

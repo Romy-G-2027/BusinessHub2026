@@ -8,15 +8,11 @@
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     color: black;
-   
+    margin-top: 40px;
     text-align: left;
 
 } 
 
-.logos img{
-  height: 30px;
-  margin:5px;
-}
 .footer-new-bottom {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     text-align: center;

@@ -1,12 +1,11 @@
 import "./ServiceN1.css"
-import {Clock, Crown, Check, ShieldAlert, SendHorizontal, ChevronLeft, Package, DollarSign, X, CalendarClock, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
-import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
+import React, { useState } from "react";
+import MakeOrder from "./MarketplacePOP";
 
 function ServiceNumber1() {
     /*const [showBox, setShowBox] = usestate(false);*/
-    const navigate = useNavigate();
-
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="Services">
             <p className="tinyMarketplace">Marketplace</p>
@@ -19,11 +18,11 @@ function ServiceNumber1() {
             <span className="rates"><span className="stars2">★★★★★ </span><span className="NumberOfRates2">(45)</span></span>
             <p className="Tag">Most Ordered</p>
             <Crown id="crown" size={24} />
-            <Link to="/Marketplace">
-                <ChevronLeft size={24} className="back" />
-            </Link>
+
             {/*<div>*/}
-            <button className="addToCart" /*onClick={() => setShowBox (!showBox)}*/>Add To Cart</button>
+            <button onClick={() => setIsOpen(true)} className="addToCart">
+                Open Popup
+            </button>
            {/* { showBox && (
                 <div className="AddToCart">
                     <h2>Hello</h2>
@@ -180,7 +179,10 @@ function ServiceNumber1() {
                 <button className="PriceButton">$499.99</button>
 
 
-
+                <MakeOrder
+                    isOpen={isOpen}
+                    closeMakeOrder={() => setIsOpen(false)}
+                />
 
             </div>
         </div>

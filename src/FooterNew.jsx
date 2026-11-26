@@ -1,5 +1,5 @@
 import './FooterNew.css';
-import { SendHorizontal } from "lucide-react";
+
 
 function FooterNew() {
  return (
@@ -8,7 +8,7 @@ function FooterNew() {
 
 
        <div className="footer-new-logo">
-         <img src="public/images/Logo1.png" alt="Business Hub Logo" />
+         <img src="public/Images/logo.png" alt="Business Hub Logo" />
        </div>
 
 
@@ -29,14 +29,9 @@ function FooterNew() {
 
        <div className="footer-new-social">
          <p>Follow Us On:</p>
-         <div className= "logos">
-          <a href ="https://www.remove.bg/upload"><img src="public/images/instalogo.png" alt="Insta Logo" /></a>
-          <a href ="https://www.remove.bg/upload"><img src="public/images/tiktok2.png" alt="Tiktok Logo" /></a>
-          <a href ="https://www.remove.bg/upload"><img src="public/images/facebook4.png" alt="Facebook Logo" /></a>
-
+         <div className="footer-new-icons">
+           {/* Add Instagram, TikTok, and Facebook icons here */}
          </div>
-         
-         
        </div>
 
 
