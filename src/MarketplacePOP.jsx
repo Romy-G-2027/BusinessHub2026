@@ -15,54 +15,54 @@ function MakeOrder ({isOpen, closeMakeOrder}) {
                         className="order-close"
                         onClick={closeMakeOrder}
                         >
-                            X
+                            <X size={30}/>
                         </button>
 
-                        <h2 className="make order">Make Order</h2>
-                <Package size={24} />
+                <h2 className="title">Make Order</h2>
+                <Package size={24} className="iconI"/>
                 <span className="orderName">The Golden package</span>
                 <br/>
                 <div className="lightLine"></div>
-                <DollarSign size={24} />
+                <DollarSign size={24} className="iconI"/>
                 <span className="orderPrice">$499.99</span>
                 <br/>
-                <CalendarClock size={24} />
+                <CalendarClock size={24} className="iconI"/>
                 <span className="orderTime">3-5 weeks</span>
                 <div className="dividing line 1"></div>
-                <ClipboardList size={24} />
-                <span className="Order Items">Order Items</span>
+                <ClipboardList size={24} className="details" />
+                <span className="OrderItems">Order Items</span>
                 <br/>
-                <Check size={24} />
-                <span className="ItemsOffered1">Professional Website with 2 integrations and 7 pages limit</span>
+                <Check size={24} className="check" />
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
                 <br/>
-                <Check size={24} />
-                <span className="ItemsOffered2">Professional Website with 2 integrations and 7 pages limit</span>
-                <Check size={24} />
-                <span className="ItemsOffered3">Professional Website with 2 integrations and 7 pages limit</span>
+                <Check size={24} className="check"/>
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
+                <Check size={24} className="check"/>
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
                 <br/>
-                <Check size={24} />
-                <span className="ItemsOffered4">Professional Website with 2 integrations and 7 pages limit</span>
+                <Check size={24} className="check"/>
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
                 <br/>
-                <Check size={24} />
-                <span className="ItemsOffered5">Professional Website with 2 integrations and 7 pages limit</span>
+                <Check size={24} className="check"/>
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
                 <br/>
-                <Check size={24} />
-                <span className="ItemsOffered6">Professional Website with 2 integrations and 7 pages limit</span>
+                <Check size={24} className="check" />
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
                 <br/>
                 <div className="dividingLine2"></div>
-                <p className="Coupon">Coupon Code</p>
+                {/*<p className="Coupon">Coupon Code</p>
                 <input type="search" placeholder="eg:businessHub2026" />
                 <button className="Redeem">Redeem</button>
-                <div className="dividingLine3"></div>
+            <div className="dividingLine3"></div>*/}
                 
                 <label>
-                    <input type="checkbox" />
+                    <input type="checkbox" className="checkbox" />
                     <span className="boldText">I agree </span> that Business Hub may have an agreed upon
                 percentage of equity in my company if I purchased a website with more functionalities and technology
                 </label>
                 <br/>
                 <label>
-                    <input type="checkbox" />
+                    <input type="checkbox"  className="checkbox"/>
                     <span className="boldText">I already </span> filled my company information form in 
                 business hub earlier (We CAN NOT provide you with the service unless you fill it first )
                 </label>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.order-overlay {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.order-content {
+    position: relative;
+    background-color:white;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
+    width:700px;
+    height:1000px;
+    overflow-y: auto;
+    padding:30px;
+    border-radius:15px;
+}
+
+.order-close {
+    color:#B41E21;
+    background-color:white;
+    position:absolute;
+    right:10px;
+    top:20px;
+}
+
+.title {
+    font-family: 'Momo Trust Display', sans-serif;
+    font-size: 35px;
+    position:absolute;
+    top: 50px;
+    left:280px;
+    font-weight: 50px;
+    Color: black;
+}
+
+.iconI {
+    color:#BC7C03;
+    width:40px;
+    height:40px;
+    position:absolute;
+    left:150px;   
+}
+/*
+        <h2 className="make order">Make Order</h2>
+                <Package size={24} className="OrderI"/>
+                <span className="orderName">The Golden package</span>
+                <br/>
+                <div className="lightLine"></div>
+                <DollarSign size={24} className="money"/>
+                <span className="orderPrice">$499.99</span>
+                <br/>
+                <CalendarClock size={24} className="clock"/>
+                <span className="orderTime">3-5 weeks</span>
+                <div className="dividing line 1"></div>
+                <ClipboardList size={24} className="details" />
+                <span className="OrderItems">Order Items</span>
+                <br/>
+                <Check size={24} className="check" />
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
+                <br/>
+                <Check size={24} className="check"/>
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
+                <Check size={24} className="check"/>
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
+                <br/>
+                <Check size={24} className="check"/>
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
+                <br/>
+                <Check size={24} className="check"/>
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
+                <br/>
+                <Check size={24} className="check" />
+                <span className="ItemsOffered">Professional Website with 2 integrations and 7 pages limit</span>
+                <br/>
+                <div className="dividingLine2"></div>
+                
+            <label>
+            <input type="checkbox" className="checkbox" />
+            <span className="boldText">I agree </span> that Business Hub may have an agreed upon
+        percentage of equity in my company if I purchased a website with more functionalities and technology
+        </label>
+        <br/>
+        <label>
+            <input type="checkbox"  className="checkbox"/>
+            <span className="boldText">I already </span> filled my company information form in 
+        business hub earlier (We CAN NOT provide you with the service unless you fill it first )
+        </label>
+        <button id="AddToCart">ADD TO CART <ShoppingCartPlus size={24} /> </button>
+        <button className="PriceButton">$499.99</button>
+*/

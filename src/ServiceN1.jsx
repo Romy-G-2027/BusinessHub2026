@@ -21,7 +21,7 @@ function ServiceNumber1() {
 
             {/*<div>*/}
             <button onClick={() => setIsOpen(true)} className="addToCart">
-                Open Popup
+               Add To Cart
             </button>
            {/* { showBox && (
                 <div className="AddToCart">
@@ -116,7 +116,7 @@ function ServiceNumber1() {
             ADD TO CART, but I am not sure if I have to make a whole new page for it or if there 
             are lines within the same page to show this, because each item would need one of these 
             that's different in contnet? */}
-
+            {/*}
             <div id="MakeOrder">
 
                 <div className="boxBackground"></div>
@@ -174,17 +174,19 @@ function ServiceNumber1() {
                 percentage of equity in my company if I purchased a website with more functionalities and technology</span>
                 <Square size={24} />
                 <span className="Agreement2"><span className="boldText">I already </span> filled my company information form in 
-                business hub earlier (We CAN NOT provide you with the service unless you fill it first )</span>*/}
+                business hub earlier (We CAN NOT provide you with the service unless you fill it first )</span>
                 <button id="AddToCart">ADD TO CART <ShoppingCartPlus size={24} /> </button>
                 <button className="PriceButton">$499.99</button>
-
-
-                <MakeOrder
+        
+                
+                
+            </div>*/}
+            
+            <MakeOrder
                     isOpen={isOpen}
                     closeMakeOrder={() => setIsOpen(false)}
                 />
 
-            </div>
         </div>
     );
 }
