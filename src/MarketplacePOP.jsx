@@ -3,7 +3,7 @@ import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X
 import "./MarketplacePOP.css";
 import { useEffect, useState } from "react";
 
-function MakeOrder ({isOpen, closeMakeOrder}) {
+function MakeOrder({ isOpen, closeMakeOrder, onAddToCart }) {
 
     return (
         <div>
@@ -69,7 +69,10 @@ function MakeOrder ({isOpen, closeMakeOrder}) {
                 business hub earlier (We CAN NOT provide you with the service unless you fill it first ) </p>
                 </label>
                 <div className="lineF" />
-                <button className="AddToCart">ADD TO CART <ShoppingCartPlus className="carti" size={24} /> </button>
+                <button className="AddToCart" onClick={() => {
+                    closeMakeOrder();
+                    onAddToCart();
+                }}>ADD TO CART <ShoppingCartPlus className="carti" size={24} /> </button>
                 <p className="PriceButton">$499.99</p>
                     </div>
                 </div>

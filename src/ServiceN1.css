@@ -15,6 +15,10 @@
 .ST{
     font-weight:bolder;
     font-size:40px;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:10px;
 }
 
 #itemGolden {
@@ -103,6 +107,8 @@
     color:#A87109;
     position:absolute;
     width:18px;
+    top:791px;
+    left:330px;
 }
 
 .addToCart {
@@ -362,4 +368,17 @@
     border-radius: 50px;
     bottom:-875px;
     right:251px;
+}
+
+.back {
+    width:25px;
+    height:25px;
+    background-color: white;
+    border-radius:5px;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
+    position:absolute;
+    left:210px;
+    top:140px;
 }

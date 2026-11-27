@@ -31,9 +31,14 @@ import { useState, useEffect } from "react";
 function App() {
     const [showNotification, setShowNotification] = useState(false);
 
+    function handleAddToCart() {
+      setShowNotification(true);
+  }
+
     useEffect(() => {
         if (!showNotification) return;
 
+        
         const timer = setTimeout(() => {
             setShowNotification(false);
         }, 3000);
@@ -54,15 +59,15 @@ function App() {
                 <Route path="/Signin" element={<Signin />} />
                 <Route path="/Forgotpassword" element={<Forgotpassword />} />
 
-                <Route path="/ServiceN1" element={<ServiceNumber1 />} />
-                <Route path="/ServiceN2" element={<ServiceNumber2 />} />
-                <Route path="/ServiceN3" element={<ServiceNumber3 />} />
-                <Route path="/ServiceN4" element={<ServiceNumber4 />} />
-                <Route path="/ServiceN5" element={<ServiceNumber5 />} />
-                <Route path="/ServiceN6" element={<ServiceNumber6 />} />
-                <Route path="/ServiceN7" element={<ServiceNumber7 />} />
-                <Route path="/ServiceN8" element={<ServiceNumber8 />} />
-                <Route path="/ServiceN9" element={<ServiceNumber9 />} />
+                <Route path="/ServiceN1" element={<ServiceNumber1 onAddToCart={handleAddToCart} />} />
+                <Route path="/ServiceN2" element={<ServiceNumber2 onAddToCart={handleAddToCart} />} />
+                <Route path="/ServiceN3" element={<ServiceNumber3 onAddToCart={handleAddToCart}/>} />
+                <Route path="/ServiceN4" element={<ServiceNumber4 onAddToCart={handleAddToCart}/>} />
+                <Route path="/ServiceN5" element={<ServiceNumber5 onAddToCart={handleAddToCart}/>} />
+                <Route path="/ServiceN6" element={<ServiceNumber6 onAddToCart={handleAddToCart}/>} />
+                <Route path="/ServiceN7" element={<ServiceNumber7 onAddToCart={handleAddToCart}/>} />
+                <Route path="/ServiceN8" element={<ServiceNumber8 onAddToCart={handleAddToCart}/>} />
+                <Route path="/ServiceN9" element={<ServiceNumber9 onAddToCart={handleAddToCart}/>} />
 
                 <Route path="/InvestAgreement" element={<InvestAgreement />} />
                 <Route path="/CompForm" element={<CompForm />} />
@@ -72,7 +77,7 @@ function App() {
             {showNotification && (
                 <div className="cartNotification">
                     <span>✓</span>
-                    Logo Design successfully added to cart!
+                    The Golden Package successfully added to cart!
                 </div>
             )}
 

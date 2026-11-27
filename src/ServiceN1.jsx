@@ -1,9 +1,9 @@
 import "./ServiceN1.css"
-import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
+import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ChevronLeft, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
 import React, { useState } from "react";
 import MakeOrder from "./MarketplacePOP";
 
-function ServiceNumber1() {
+function ServiceNumber1({ onAddToCart }) {
     /*const [showBox, setShowBox] = usestate(false);*/
     const [isOpen, setIsOpen] = useState(false);
     return (
@@ -18,8 +18,8 @@ function ServiceNumber1() {
             <span className="rates"><span className="stars2">★★★★★ </span><span className="NumberOfRates2">(45)</span></span>
             <p className="Tag">Most Ordered</p>
             <Crown id="crown" size={24} />
+            <a href="./Marketplace"><ChevronLeft className="back" size={24}/></a>
 
-            {/*<div>*/}
             <button onClick={() => setIsOpen(true)} className="addToCart">
                Add To Cart
             </button>
@@ -112,9 +112,10 @@ function ServiceNumber1() {
             <SendHorizontal className="send"size={24} />
 
             <MakeOrder
-                    isOpen={isOpen}
-                    closeMakeOrder={() => setIsOpen(false)}
-                />
+                isOpen={isOpen}
+                closeMakeOrder={() => setIsOpen(false)}
+                onAddToCart={onAddToCart}
+            />
 
         </div>
     );

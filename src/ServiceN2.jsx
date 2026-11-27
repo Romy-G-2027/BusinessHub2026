@@ -1,8 +1,11 @@
 import "./ServiceN1.css"
-import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
+import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ChevronLeft, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
+import React, { useState } from "react";
+import MakeOrder from "./MarketplacePOP";
 
-function ServiceNumber2() {
+function ServiceNumber2({ onAddToCart }) {
     /*const [showBox, setShowBox] = usestate(false);*/
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="Services">
             <p className="tinyMarketplace">Marketplace</p>
@@ -14,9 +17,11 @@ function ServiceNumber2() {
             <span className="weeks">1 - 3 Days</span>
             <span className="rates"><span className="stars2">★★★★★ </span><span className="NumberOfRates2">(25)</span></span>
             <p className="Tag">Logo Design</p>
+            <a href="./Marketplace"><ChevronLeft className="back" size={24}/></a>
 
-            {/*<div>*/}
-            <button className="addToCart" /*onClick={() => setShowBox (!showBox)}*/>Add To Cart</button>
+            <button onClick={() => setIsOpen(true)} className="addToCart">
+               Add To Cart
+            </button>
            {/* { showBox && (
                 <div className="AddToCart">
                     <h2>Hello</h2>
@@ -107,6 +112,12 @@ function ServiceNumber2() {
             <input type="search" placeholder="| GIVE FEEDBACK HERE" className="typeF"/>
             <span className="urate">☆☆☆☆☆</span>
             <SendHorizontal className="send"size={24} />
+
+            <MakeOrder
+                isOpen={isOpen}
+                closeMakeOrder={() => setIsOpen(false)}
+                onAddToCart={onAddToCart}
+            />
 
             {/* Question: The following lines under div id="MakeOrder" are supposed to be the make order
             or add to cart an item option, and we want it to pop when they click on the button 

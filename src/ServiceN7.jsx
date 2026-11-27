@@ -1,8 +1,11 @@
 import "./ServiceN1.css"
-import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
+import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ChevronLeft, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
+import React, { useState } from "react";
+import MakeOrder from "./MarketplacePOP";
 
-function ServiceNumber7() {
+function ServiceNumber7({ onAddToCart }) {
     /*const [showBox, setShowBox] = usestate(false);*/
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="Services">
             <p className="tinyMarketplace">Marketplace</p>
@@ -16,8 +19,11 @@ function ServiceNumber7() {
             <p className="Tag">Courses</p>
             <p className="Tag">Educational</p>
 
-            {/*<div>*/}
-            <button className="addToCart" /*onClick={() => setShowBox (!showBox)}*/>Add To Cart</button>
+            <a href="./Marketplace"><ChevronLeft className="back" size={24}/></a>
+
+            <button onClick={() => setIsOpen(true)} className="addToCart">
+               Add To Cart
+            </button>
            {/* { showBox && (
                 <div className="AddToCart">
                     <h2>Hello</h2>
@@ -104,6 +110,11 @@ function ServiceNumber7() {
             <input type="search" placeholder="| GIVE FEEDBACK HERE" className="typeF"/>
             <span className="urate">☆☆☆☆☆</span>
             <SendHorizontal className="send"size={24} />
+            <MakeOrder
+                isOpen={isOpen}
+                closeMakeOrder={() => setIsOpen(false)}
+                onAddToCart={onAddToCart}
+            />
 
         
         </div>
