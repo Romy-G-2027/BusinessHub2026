@@ -1,8 +1,11 @@
 import "./ServiceN1.css"
-import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
+import {Clock, Crown, Check, ShieldAlert, SendHorizontal, Package, DollarSign, X, CalendarClock, ChevronLeft, ClipboardList, Square, ShoppingCartPlus } from "lucide-react";
+import React, { useState } from "react";
+import MakeOrder from "./MarketplacePOP";
 
-function ServiceNumber8() {
+function ServiceNumber8({ onAddToCart }) {
     /*const [showBox, setShowBox] = usestate(false);*/
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="Services">
             <p className="tinyMarketplace">Marketplace</p>
@@ -16,8 +19,11 @@ function ServiceNumber8() {
             <p className="Tag">Courses</p>
             <p className="Tag">Educational</p>
 
-            {/*<div>*/}
-            <button className="addToCart" /*onClick={() => setShowBox (!showBox)}*/>Add To Cart</button>
+            <a href="./Marketplace"><ChevronLeft className="back" size={24}/></a>
+
+            <button onClick={() => setIsOpen(true)} className="addToCart">
+               Add To Cart
+            </button>
            {/* { showBox && (
                 <div className="AddToCart">
                     <h2>Hello</h2>
@@ -31,23 +37,19 @@ function ServiceNumber8() {
 
             <h2 className="Description">Description</h2>
             <Check className="check"size={24} />
-            <p className="Descriptioni">Business Operations and Organization: Learn how to manage the everyday activities 
-            of a company, establish efficient workflows, organize departments, assign responsibilities, manage employees, 
-            and use project management tools to keep business operations running smoothly.</p>
+            <p className="Descriptioni">Business Planning and Organization: Practical guidance on goal setting,
+             task prioritization, business planning, and organizing daily responsibilities to manage your company effectively.</p>
             <Check className="check" size={24} />
-            <p className="Descriptioni">Financial Planning and Resource Management: Understand the fundamentals
-             of budgeting, tracking expenses, managing cash flow, setting prices, calculating costs, and using financial 
-             management tools to monitor the company's financial performance.</p>
+            <p className="Descriptioni">Daily Operations Management: Strategies for creating workflows,
+             coordinating responsibilities, organizing business processes, and managing routine company activities.</p>
             <Check className="check" size={24} />
-            <p className="Descriptioni">Marketing, Sales, and Customer Relationships: Learn how to manage marketing campaigns, 
-            develop customer acquisition strategies, organize sales processes, analyze customer behavior, and use CRM tools to maintain 
-            relationships and improve customer satisfaction.</p>
+            <p className="Descriptioni">Business Decision-Making: Educational guidance on problem-solving,
+             resource allocation, evaluating opportunities, and making informed business management decisions.</p>
             <Check className="check" size={24} />
-            <p className="Descriptioni">Business Performance and Strategic Growth: Discover how to evaluate company performance 
-            using analytics and key performance indicators (KPIs), identify operational weaknesses, make informed decisions, solve business challenges, and develop
-             long-term strategies for sustainable growth.</p>
+            <p className="Descriptioni">Performance and Growth Planning: Frameworks for reviewing business goals,
+             monitoring performance, identifying challenges, and planning future business improvements.</p>
 
-            <hr className="Divider"/> {/* Line */}
+            <hr className="DividerTw"/> {/* Line */}
 
             <ShieldAlert className="alert" size={24} />
             <span className="Notice">Important Notice</span>
@@ -58,8 +60,8 @@ function ServiceNumber8() {
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <hr className="Divider" /> {/* Line */}
-            <p className="Description">Feedback</p>
+            <hr className="DividerTH" /> {/* Line */}
+            <p className="DescriptionT">Feedback</p>
 
             <div className="allfeedback">
                 <div className="Feedback">
@@ -67,8 +69,8 @@ function ServiceNumber8() {
                     <div className="SmallBlackSquare"/>
                     <div className="SmallWhiteSquare"/>
                     <p className="quotationMarksP1">"</p>
-                    <p className="feedbackText">This course gave me a better understanding of what goes into managing a company.
-                     The lessons about operations, finances, and organizing responsibilities were particularly helpful.</p>
+                    <p className="feedbackText">The material explained business management clearly,
+                     making the topics easier to understand. I found the planning guidance especially useful.</p>
                     <p className="quotationMarksP2">"</p>
                     <img src="public/Images/Feedback1.jpg" alt="JamesMitchell" width="200" height="200" className="avatar"/>
                     <p className="FeedbackWriter">James Mitchell</p>
@@ -81,8 +83,8 @@ function ServiceNumber8() {
                     <div className="SmallBlackSquare"/>
                     <div className="SmallWhiteSquare"/>
                     <p className="quotationMarksP1">"</p>
-                    <p className="feedbackText">I appreciated how the course covered both the management side and the practical
-                     tools used to organize a business. It helped me understand how different parts of a company work together.</p>
+                    <p className="feedbackText">The topics were well organized and provided helpful 
+                    insights into managing business operations. The material made concepts easier to follow.</p>
                     <p className="quotationMarksP2">"</p>
                     <img src="public/Images/Feedback2.jpg" alt="SophiaWilliams" width="200" height="200" className="avatar"/>
                     <p className="FeedbackWriter">Sophia Williams</p>
@@ -95,8 +97,8 @@ function ServiceNumber8() {
                     <div className="SmallBlackSquare"/>
                     <div className="SmallWhiteSquare"/>
                     <p className="quotationMarksP1">"</p>
-                    <p className="feedbackText">A useful course for understanding business management beyond just having an idea. 
-                    It covers financial organization, marketing, customer relationships, and planning for growth.</p>
+                    <p className="feedbackText">The resources offered a useful approach to organizing business
+                     activities and decisions. I appreciated the simple, professional presentation.</p>
                     <p className="quotationMarksP2">"</p>
                     <img src="public/Images/Feedback3.jpg" alt="OmarBennett" width="200" height="200" className="avatar"/>
                     <p className="FeedbackWriter">Omar Bennett</p>
@@ -108,78 +110,11 @@ function ServiceNumber8() {
             <input type="search" placeholder="| GIVE FEEDBACK HERE" className="typeF"/>
             <span className="urate">☆☆☆☆☆</span>
             <SendHorizontal className="send"size={24} />
-
-            {/* Question: The following lines under div id="MakeOrder" are supposed to be the make order
-            or add to cart an item option, and we want it to pop when they click on the button 
-            ADD TO CART, but I am not sure if I have to make a whole new page for it or if there 
-            are lines within the same page to show this, because each item would need one of these 
-            that's different in contnet? */}
-
-            <div id="MakeOrder">
-
-                <div className="boxBackground"></div>
-                <X size={12} />
-                <h2 className="make order">Make Order</h2>
-                <Package size={24} />
-                <span className="orderName">The Golden package</span>
-                <br/>
-                <div className="lightLine"></div>
-                <DollarSign size={24} />
-                <span className="orderPrice">$499.99</span>
-                <br/>
-                <CalendarClock size={24} />
-                <span className="orderTime">3-5 weeks</span>
-                <div className="dividing line 1"></div>
-                <ClipboardList size={24} />
-                <span className="Order Items">Order Items</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered1">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered2">Professional Website with 2 integrations and 7 pages limit</span>
-                <Check size={24} />
-                <span className="ItemsOffered3">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered4">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered5">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <Check size={24} />
-                <span className="ItemsOffered6">Professional Website with 2 integrations and 7 pages limit</span>
-                <br/>
-                <div className="dividingLine2"></div>
-                <p className="Coupon">Coupon Code</p>
-                <input type="search" placeholder="eg:businessHub2026" />
-                <button className="Redeem">Redeem</button>
-                <div className="dividingLine3"></div>
-                
-                <label>
-                    <input type="checkbox" />
-                    <span className="boldText">I agree </span> that Business Hub may have an agreed upon
-                percentage of equity in my company if I purchased a website with more functionalities and technology
-                </label>
-                <br/>
-                <label>
-                    <input type="checkbox" />
-                    <span className="boldText">I already </span> filled my company information form in 
-                business hub earlier (We CAN NOT provide you with the service unless you fill it first )
-                </label>
-                {/*<Square size={24} />
-                <span className="Agreement1"><span className="boldText">I agree </span> that Business Hub may have an agreed upon
-                percentage of equity in my company if I purchased a website with more functionalities and technology</span>
-                <Square size={24} />
-                <span className="Agreement2"><span className="boldText">I already </span> filled my company information form in 
-                business hub earlier (We CAN NOT provide you with the service unless you fill it first )</span>*/}
-                <button id="AddToCart">ADD TO CART <ShoppingCartPlus size={24} /> </button>
-                <button className="PriceButton">$499.99</button>
-
-
-
-
-            </div>
+            <MakeOrder
+                isOpen={isOpen}
+                closeMakeOrder={() => setIsOpen(false)}
+                onAddToCart={onAddToCart}
+            />
         </div>
     );
 }

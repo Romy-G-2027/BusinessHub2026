@@ -29,7 +29,7 @@ function NavigationBar() {
           Investments
         </Link>
 
-        <Link to="/Forms" className="Forms">
+        <Link to="/CompForm" className="Forms">
           Forms
         </Link>
 
