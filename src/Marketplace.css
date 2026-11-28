@@ -12,6 +12,7 @@
 }
 #Marketplace {
     background-color:#FFFBEB;
+    height:1750px;
 }
 .allCards {
     display:grid;
@@ -163,11 +164,11 @@
 .lButton {
     color:black;
     background-color:#DFB361;
-    font-size:14px;
+    font-size:small;
     position:absolute;
-    top:515px;
+    top:520px;
     right:225px;
-    padding:10px;
+    padding:2px;
     text-decoration: none;
     border-radius:10px;
     width: 150px;
