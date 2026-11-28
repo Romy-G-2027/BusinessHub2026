@@ -6,14 +6,14 @@ function Login () {
        <div className="Login" id="Login">
 
 
-           <div className="leftColumn">
+           <div className="BHLogoClass" className="leftColumn">
                <img id="BHLogo"src="/public/images/Logo1.png" alt="BH Logo"></img>
            </div>
 
 
            <div className="rigthColumn">
                <div>
-                   <h2>Log In</h2>
+                   <h2>Log in</h2>
                </div>
 
 
@@ -36,18 +36,17 @@ function Login () {
 
 
                    <div>
-                      <button> Log In </button>
+                      <button> Sign Up </button>
                    </div>
 
 
-                   <div id="linksDiv">
-                        <div id="linkToSigUp"> Dont have an account.
-                            <a href="https://businesshub2026-ffbk-2jb2xh9r--5173--e1edbc98.local-corp.webcontainer.io/Signin"> Sign Up </a>
-                        </div>
-                        
-                        <div>
-                            <a href="https://businesshub2026-ffbk-2jb2xh9r--5173--e1edbc98.local-corp.webcontainer.io/Forgotpassword">forgot pasword</a>
-                        </div>
+                   <div>
+                   <form> Dont have an account.
+                       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sign Up</a>
+                   </form>
+                   <form>
+                       <a href="https://www.youtube.com/watch?v=7oKZeo779Xg">forgot pasword</a>
+                   </form>
                    </div>
 
 
