@@ -4,13 +4,13 @@ function Signin () {
     return(
         <div className="Signin" id="Signin">
 
-            <div className="BHLogoClass" className="leftColumn">
+            <div className="leftColumn">
                 <img id="BHLogo"src="/public/images/Logo1.png" alt="BH Logo"></img>
             </div>
 
-            <div>
+            <div className="rigthColumn">
                 <div>
-                    <h2>Sign In</h2>
+                    <h2>Sign Up</h2>
                 </div>
                 <div>
 
@@ -49,11 +49,20 @@ function Signin () {
                     </div>
 
                     <div>
-                        <button> Sign In </button>
+                        <button> Sign Up </button>
                     </div>
 
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Dont have an account. Log in</a>
-                    <a href="https://www.youtube.com/watch?v=7oKZeo779Xg">forgot pasword</a>
+                    
+                    <div id="linksDiv">
+                        <div id="linkToSigUp"> Already Have and Account.
+                            <a href="https://businesshub2026-ffbk-2jb2xh9r--5173--e1edbc98.local-corp.webcontainer.io/Login"> Log Up </a>
+                        </div>
+                        
+                        <div>
+                            <a href="https://businesshub2026-ffbk-2jb2xh9r--5173--e1edbc98.local-corp.webcontainer.io/Forgotpassword">forgot pasword</a>
+                        </div>
+                   </div>
+
                 </div>
             </div>
         </div>
