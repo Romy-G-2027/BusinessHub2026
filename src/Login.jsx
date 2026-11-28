@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import "./Login.css"
 
 
@@ -12,13 +11,13 @@ function Login () {
 
 
           <div className="leftColumn">
-              <img id="BHLogo"src="/images/Logo1.png" alt="BH Logo"></img>
+              <img id="BHLogo"src="/public/images/Logo1.png" alt="BH Logo"></img>
           </div>
 
 
 
 
-          <div className="rightColumn">
+          <div className="rigthColumn">
               <div>
                   <h2>Log In</h2>
               </div>
@@ -58,12 +57,12 @@ function Login () {
 
 
                   <div id="linksDiv">
-                       <div id="linkToSigUp"> Dont have an account {''}
-                           <Link to="/Signin"> Sign Up </Link>
+                       <div id="linkToSigUp"> Dont have an account.
+                           <a href="https://businesshub2026-ffbk-2jb2xh9r--5173--e1edbc98.local-corp.webcontainer.io/Signin"> Sign Up </a>
                        </div>
                       
                        <div>
-                           <Link to="/Forgotpassword">forgot pasword</Link>
+                           <a href="https://businesshub2026-ffbk-2jb2xh9r--5173--e1edbc98.local-corp.webcontainer.io/Forgotpassword">forgot pasword</a>
                        </div>
                   </div>
 
@@ -81,10 +80,4 @@ function Login () {
 
 
 export default Login;
-
-
-
-
-
-
 
