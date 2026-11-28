@@ -1,12 +1,10 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import "./InvestForm.css";
 import { SendHorizontal } from "lucide-react";
 import Popup from "./Popup";
 
-function InvestForm({ onBack }) {
+function InvestForm() {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
-    const navigate = useNavigate();
 
     return (
         <main className="investment-page">
@@ -26,14 +24,7 @@ function InvestForm({ onBack }) {
 
             <form
                 className="investment-form"
-                onSubmit={(e) => {
-                    e.preventDefault();
-                    if (onBack) {
-                        onBack();
-                    } else {
-                        navigate("/Forms");
-                    }
-                }}
+                onSubmit={(e) => e.preventDefault()}
             >
 
                 <div className="investment-row">
@@ -44,7 +35,7 @@ function InvestForm({ onBack }) {
 
                         <input
                             className="investment-input"
-                            type="text"
+                            type="number"
                             placeholder="| TYPE TEXT HERE"
                             min="1"
                             required
@@ -73,7 +64,7 @@ function InvestForm({ onBack }) {
 
                         <input
                             className="investment-input"
-                            type="text"
+                            type="number"
                             placeholder="| TYPE TEXT HERE"
                             min="0.01"
                             max="100"
