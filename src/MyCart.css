@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+#MyCart{
+    background-color:#FFFBEB;
+    height:730px;
+}
 
 
 #cartTitle {
@@ -66,17 +69,55 @@
     text-align: right;
 }
 
-.Checkout {
-    background-color:#e3b35a;
-    width:700px;
-    color:black;
-    font-weight: 600;
-    font-size: larger;
+.bag {
+    color:white;
+    width:30px;
+    height:30px;
     position:relative;
-    top:50px;
-    left:102px;
-    padding-right: 300px;
-    border-radius: 0%;
+    top:5px;
+}
+
+.bag:hover {
+    color:#d8a546;
+    width:30px;
+    height:30px;
+    position:relative;
+    top:5px;
+}
+.Checkout {
+    background-color: #d8a546;
+    border-color:#d8a546; 
+    color:#ffffff;
+    border-style: solid;
+    border-width:1.5px;
+    width:700px;
+    height:50px;
+    position:relative;
+    top:25px;
+    left:10px;
+    border-radius: 5px;
+    font-family:'poppins';
+    font-weight:500;
+    font-size:23px;
+    padding:5px;
+}
+
+.Checkout:hover {
+    background-color: white;
+    border-color:#d8a546; 
+    color:#d8a546;
+    border-style: solid;
+    border-width:1.5px;
+    width:700px;
+    height:50px;
+    position:relative;
+    top:25px;
+    left:10px;
+    border-radius: 5px;
+    font-family:'poppins';
+    font-weight:500;
+    font-size:23px;
+    padding:5px;
 }
 
 .ItemsNumber {
@@ -94,7 +135,17 @@
 .divider {
     width:700px;
     position:relative;
-    bottom:60px;
+    bottom:120px;
+    left:220px;
+    border-color:#b1aba0b6; 
+    border-style: solid;
+    border-width:1px;
+}
+
+.dividerT {
+    width:700px;
+    position:relative;
+    Top:-20px;
     left:220px;
     border-color:#b1aba0b6; 
     border-style: solid;
@@ -105,15 +156,84 @@
     color: #000000;
     font-weight: 450;
     position:relative;
-    top:50px;
+    top:165px;
     font-size:larger;
-    background-color: white;
     padding:10px;
     border-radius: 10px;
-    right:100px;
+    right:300px;
     font-weight: 650;
 }
 
+.COst {
+    color:#BC7C03;
+    font-weight: 450;
+    position:relative;
+    top:120px;
+    font-size:larger;
+    padding:10px;
+    border-radius: 10px;
+    left:300px;
+    font-weight: 650;
+}
+
+.Coupon {
+    color:#BC7C03;
+    font-weight: 450;
+    position:relative;
+    top:-30px;
+    font-size:larger;
+    padding:10px;
+    border-radius: 10px;
+    right:220px;
+    font-weight: 650;
+}
+
+.enterC {
+    background-color: white;
+    border-color:#BC7C03; 
+    border-style: solid;
+    border-width:1.5px;
+    width:450px;
+    height:45px;
+    position:relative;
+    top:-35px;
+    right:15px;
+    border-radius: 5px;
+}
+
+.Redeem {
+    background-color: white;
+    border-color:#BC7C03; 
+    color:#BC7C03;
+    border-style: solid;
+    border-width:1.5px;
+    width:100px;
+    height:45px;
+    position:relative;
+    top:-35px;
+    border-radius: 5px;
+    font-family:'poppins';
+    font-weight:500;
+    font-size:15px;
+    padding:2px;
+}
+
+.Redeem:hover {
+    background-color: #BC7C03;
+    border-color:#BC7C03; 
+    color:#ffffff;
+    border-style: solid;
+    border-width:1.5px;
+    width:100px;
+    height:45px;
+    position:relative;
+    top:-35px;
+    border-radius: 5px;
+    font-family:'poppins';
+    font-weight:500;
+    font-size:15px;
+    padding:2px;
+}
 /*
 <p className="IT">Items 3</p>
             <p className="COst"> $534.97</p>

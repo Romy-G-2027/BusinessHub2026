@@ -1,9 +1,22 @@
-import './Payment';
+import './Payment.css';
 import {ChevronLeft,ChevronDown, X, Earth, BuildingComplex } from "lucide-react"; 
 
-function Payment() {
+function Payment({ isOpen, closePayment }) {
     return (
         <div className="payment">
+
+            {isOpen && (
+                <div className="payment-overlay">
+                    <div className="payment-content">
+
+                        <button
+                            className="payment-close"
+                            onClick={closePayment}
+                        >
+                            <X size={30} />
+                        </button>
+
+
             <h2 id="PaymentTitle">Payment</h2>
             <ChevronLeft size={12} />
             <X size={12} />
@@ -67,7 +80,11 @@ function Payment() {
             
             <br/>
             <img src="public/Images/Visa.png" alt="Visa&MasterCard" width="170" height="50" />
+            
+            </div>
         </div>
+        )}
+    </div>
     );
 }
 

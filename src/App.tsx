@@ -23,6 +23,7 @@ import InvestmentsSearch from './Investments';
 import InvestAgreement from './InvestAgreement';
 import CompForm from './CompForm';
 import InvestForm from './InvestForm';
+import Payment from './Payment';
 
 import './App.css';
 
@@ -72,6 +73,7 @@ function App() {
                 <Route path="/InvestAgreement" element={<InvestAgreement />} />
                 <Route path="/CompForm" element={<CompForm />} />
                 <Route path="/InvestForm" element={<InvestForm />} />
+                <Route path="/Payment" element={<Payment />} />
             </Routes>
 
             {showNotification && (
